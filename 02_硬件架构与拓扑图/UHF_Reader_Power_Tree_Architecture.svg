@@ -1,0 +1,569 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2000 1340" width="100%" height="100%" style="background:#090d16; font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911"/>
+      <stop offset="50%" stop-color="#0a101d"/>
+      <stop offset="100%" stop-color="#05080f"/>
+    </linearGradient>
+
+    <!-- Card Gradients -->
+    <linearGradient id="inputCardGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="buckGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7c2d12"/>
+      <stop offset="100%" stop-color="#431407"/>
+    </linearGradient>
+
+    <linearGradient id="buckGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#065f46"/>
+      <stop offset="100%" stop-color="#022c22"/>
+    </linearGradient>
+
+    <linearGradient id="ldoGradAmber" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e1b4b"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="ldoGradCyan" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#134e4a"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+
+    <linearGradient id="loadGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#030712"/>
+    </linearGradient>
+
+    <linearGradient id="summaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b"/>
+      <stop offset="100%" stop-color="#0b1324"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000000" flood-opacity="0.65"/>
+    </filter>
+
+    <filter id="glowOrange" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#f97316" flood-opacity="0.8"/>
+    </filter>
+
+    <filter id="glowGreen" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#10b981" flood-opacity="0.8"/>
+    </filter>
+
+    <filter id="glowBlue" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="0" stdDeviation="4" flood-color="#38bdf8" flood-opacity="0.8"/>
+    </filter>
+
+    <!-- Arrow Markers -->
+    <marker id="arrIn" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#94a3b8"/>
+    </marker>
+    <marker id="arrOrange" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#f97316"/>
+    </marker>
+    <marker id="arrGreen" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#10b981"/>
+    </marker>
+    <marker id="arrBlue" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#38bdf8"/>
+    </marker>
+    <marker id="arrPurple" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#c084fc"/>
+    </marker>
+    <marker id="arrYellow" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#fbbf24"/>
+    </marker>
+  </defs>
+
+  <!-- Background -->
+  <rect width="2000" height="1340" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Blueprint Grid Pattern -->
+  <g opacity="0.05">
+    <path d="M 0 100 L 2000 100 M 0 200 L 2000 200 M 0 300 L 2000 300 M 0 400 L 2000 400 M 0 500 L 2000 500 M 0 600 L 2000 600 M 0 700 L 2000 700 M 0 800 L 2000 800 M 0 900 L 2000 900 M 0 1000 L 2000 1000 M 0 1100 L 2000 1100 M 0 1200 L 2000 1200" stroke="#94a3b8" stroke-width="1"/>
+    <path d="M 200 0 L 200 1340 M 400 0 L 400 1340 M 600 0 L 600 1340 M 800 0 L 800 1340 M 1000 0 L 1000 1340 M 1200 0 L 1200 1340 M 1400 0 L 1400 1340 M 1600 0 L 1600 1340 M 1800 0 L 1800 1340" stroke="#94a3b8" stroke-width="1"/>
+  </g>
+
+  <!-- ==================== HEADER ==================== -->
+  <g id="headerSection">
+    <rect x="50" y="30" width="1900" height="90" rx="12" fill="#0f172a" stroke="#1e293b" stroke-width="1.5" filter="url(#shadow)"/>
+    <circle cx="95" cy="75" r="22" fill="#f59e0b" opacity="0.15"/>
+    <path d="M 95 62 L 95 72 M 95 78 L 95 88 M 85 75 L 105 75" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/>
+    
+    <text x="135" y="68" fill="#f8fafc" font-size="24" font-weight="700" letter-spacing="0.5">UHF Reader MultiFunction V5 硬件电源树架构与分配拓扑图</text>
+    <text x="135" y="94" fill="#94a3b8" font-size="13">Power Tree Architecture &amp; Multi-Stage LDO Isolation Network | 外部输入 DC 9V~12V → 一级双路 Buck 稳压 → 二级 10 路独立低噪 LDO 净化</text>
+
+    <!-- Top Status Badges -->
+    <g transform="translate(1380, 52)">
+      <rect x="0" y="0" width="160" height="34" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="16" cy="17" r="5" fill="#10b981"/>
+      <text x="28" y="22" fill="#cbd5e1" font-size="12">系统总功耗: ~3.7W</text>
+    </g>
+    <g transform="translate(1555, 52)">
+      <rect x="0" y="0" width="180" height="34" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="16" cy="17" r="5" fill="#38bdf8"/>
+      <text x="28" y="22" fill="#cbd5e1" font-size="12">Buck 超额裕量: &gt;81%</text>
+    </g>
+    <g transform="translate(1750, 52)">
+      <rect x="0" y="0" width="175" height="34" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+      <circle cx="16" cy="17" r="5" fill="#f59e0b"/>
+      <text x="28" y="22" fill="#cbd5e1" font-size="12">LDO 最高负载率: 50%</text>
+    </g>
+  </g>
+
+  <!-- ==================== COLUMN HEADERS ==================== -->
+  <g id="columnHeaders">
+    <!-- Stage 0 -->
+    <rect x="50" y="145" width="240" height="36" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="170" y="168" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Stage 0: 外部输入与保护</text>
+
+    <!-- Stage 1 -->
+    <rect x="360" y="145" width="300" height="36" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="510" y="168" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Stage 1: 一级开关降压 (Buck)</text>
+
+    <!-- Intermediate Busbars -->
+    <rect x="730" y="145" width="150" height="36" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="805" y="168" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">中间分配母线</text>
+
+    <!-- Stage 2 -->
+    <rect x="950" y="145" width="380" height="36" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="1140" y="168" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Stage 2: 二级独立低噪 LDO 净化群</text>
+
+    <!-- Stage 3 -->
+    <rect x="1400" y="145" width="550" height="36" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1"/>
+    <text x="1675" y="168" fill="#e2e8f0" font-size="14" font-weight="600" text-anchor="middle">Stage 3: 目标核心负载芯片与电气隔离域</text>
+  </g>
+
+  <!-- ==================== STAGE 0: INPUT & PROTECTION ==================== -->
+  <g id="stage0Input">
+    <!-- Adapter In Box -->
+    <g transform="translate(50, 210)" filter="url(#shadow)">
+      <rect x="0" y="0" width="240" height="110" rx="10" fill="url(#inputCardGrad)" stroke="#475569" stroke-width="1.5"/>
+      <rect x="12" y="12" width="70" height="22" rx="4" fill="#334155"/>
+      <text x="47" y="27" fill="#94a3b8" font-size="11" font-weight="600" text-anchor="middle">DC_JACK</text>
+      <text x="12" y="58" fill="#f8fafc" font-size="16" font-weight="700">外部适配器输入</text>
+      <text x="12" y="80" fill="#38bdf8" font-size="14" font-weight="600">DC 9.0V ~ 12.0V</text>
+      <text x="12" y="98" fill="#94a3b8" font-size="11">额定输入电流: ~0.31 A</text>
+    </g>
+
+    <!-- Fuse F1 Box -->
+    <g transform="translate(50, 360)" filter="url(#shadow)">
+      <rect x="0" y="0" width="240" height="110" rx="10" fill="url(#inputCardGrad)" stroke="#475569" stroke-width="1.5"/>
+      <rect x="12" y="12" width="85" height="22" rx="4" fill="#ca8a04" opacity="0.2"/>
+      <text x="54" y="27" fill="#facc15" font-size="11" font-weight="600" text-anchor="middle">PROTECTION</text>
+      <text x="12" y="58" fill="#f8fafc" font-size="15" font-weight="700">自恢复保险丝 F1</text>
+      <text x="12" y="80" fill="#facc15" font-size="13" font-weight="600">JFC1206-1300FS (1.3A)</text>
+      <text x="12" y="98" fill="#94a3b8" font-size="11">负载率 23.8% | 杜绝意外过流</text>
+    </g>
+
+    <!-- TVS / Anti-Surge Box -->
+    <g transform="translate(50, 510)" filter="url(#shadow)">
+      <rect x="0" y="0" width="240" height="95" rx="10" fill="url(#inputCardGrad)" stroke="#334155" stroke-width="1.5"/>
+      <text x="12" y="32" fill="#f8fafc" font-size="14" font-weight="600">TVS 防浪涌与滤波群</text>
+      <text x="12" y="54" fill="#94a3b8" font-size="12">SMAJ15A + 100uF 固态电解</text>
+      <text x="12" y="74" fill="#38bdf8" font-size="13" font-weight="700">主母线: ADP_IN (12V)</text>
+    </g>
+
+    <!-- Indicator LED -->
+    <g transform="translate(50, 640)">
+      <rect x="0" y="0" width="240" height="50" rx="8" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+      <circle cx="25" cy="25" r="6" fill="#10b981"/>
+      <text x="42" y="29" fill="#94a3b8" font-size="12">D1 绿色电源指示灯 (12V OK)</text>
+    </g>
+  </g>
+
+  <!-- Connect Stage 0 internally -->
+  <path d="M 170 320 L 170 360" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrIn)"/>
+  <path d="M 170 470 L 170 510" stroke="#94a3b8" stroke-width="2.5" marker-end="url(#arrIn)"/>
+  <path d="M 170 605 L 170 640" stroke="#475569" stroke-width="1.5" stroke-dasharray="4,3"/>
+
+  <!-- ==================== STAGE 1: BUCK CONVERTERS ==================== -->
+  <!-- ADP_IN Main Feed Line -->
+  <path d="M 290 557 L 325 557 L 325 320 L 360 320" stroke="#f59e0b" stroke-width="3" fill="none" marker-end="url(#arrYellow)"/>
+  <path d="M 325 557 L 325 830 L 360 830" stroke="#f59e0b" stroke-width="3" fill="none" marker-end="url(#arrYellow)"/>
+
+  <!-- Buck U25 (3.9V) Card -->
+  <g id="buckU25" transform="translate(360, 240)" filter="url(#shadow)">
+    <rect x="0" y="0" width="300" height="160" rx="12" fill="url(#buckGrad1)" stroke="#ea580c" stroke-width="1.8"/>
+    <rect x="16" y="14" width="80" height="22" rx="4" fill="#c2410c"/>
+    <text x="56" y="29" fill="#ffedd5" font-size="11" font-weight="700" text-anchor="middle">BUCK DC-DC</text>
+    <rect x="195" y="14" width="88" height="22" rx="4" fill="#0f172a" stroke="#7c2d12" stroke-width="1"/>
+    <text x="239" y="29" fill="#fed7aa" font-size="11" font-weight="600" text-anchor="middle">η &gt; 92% 高效</text>
+
+    <text x="16" y="62" fill="#ffffff" font-size="18" font-weight="700">U25: SY8121BABC</text>
+    <text x="16" y="85" fill="#fdba74" font-size="13">额定载流: 2.0 A | 功率电感 L46 (4.7uH)</text>
+
+    <!-- Metrics Box -->
+    <rect x="16" y="98" width="268" height="48" rx="6" fill="#1c1917" stroke="#431407" stroke-width="1"/>
+    <text x="26" y="118" fill="#94a3b8" font-size="11">实际下游负载: <tspan fill="#f97316" font-weight="700">~372 mA</tspan></text>
+    <text x="26" y="136" fill="#94a3b8" font-size="11">负载率: <tspan fill="#10b981" font-weight="700">18.6%</tspan> (裕量 81.4% 极安全)</text>
+  </g>
+
+  <!-- Buck U28 (5.0V) Card -->
+  <g id="buckU28" transform="translate(360, 750)" filter="url(#shadow)">
+    <rect x="0" y="0" width="300" height="160" rx="12" fill="url(#buckGrad2)" stroke="#059669" stroke-width="1.8"/>
+    <rect x="16" y="14" width="80" height="22" rx="4" fill="#047857"/>
+    <text x="56" y="29" fill="#ecfdf5" font-size="11" font-weight="700" text-anchor="middle">BUCK DC-DC</text>
+    <rect x="195" y="14" width="88" height="22" rx="4" fill="#0f172a" stroke="#065f46" stroke-width="1"/>
+    <text x="239" y="29" fill="#a7f3d0" font-size="11" font-weight="600" text-anchor="middle">η &gt; 92% 高效</text>
+
+    <text x="16" y="62" fill="#ffffff" font-size="18" font-weight="700">U28: SY8121BABC</text>
+    <text x="16" y="85" fill="#6ee7b7" font-size="13">额定载流: 2.0 A | 功率电感 L47 (4.7uH)</text>
+
+    <!-- Metrics Box -->
+    <rect x="16" y="98" width="268" height="48" rx="6" fill="#022c22" stroke="#064e3b" stroke-width="1"/>
+    <text x="26" y="118" fill="#94a3b8" font-size="11">实际下游负载: <tspan fill="#10b981" font-weight="700">~325 mA</tspan></text>
+    <text x="26" y="136" fill="#94a3b8" font-size="11">负载率: <tspan fill="#10b981" font-weight="700">16.3%</tspan> (裕量 83.7% 极安全)</text>
+  </g>
+
+  <!-- ==================== INTERMEDIATE BUSBARS ==================== -->
+  <!-- Output from U25 to LDO_PWR Busbar -->
+  <path d="M 660 320 L 730 320" stroke="#f97316" stroke-width="4" marker-end="url(#arrOrange)"/>
+
+  <!-- Busbar 1: LDO_PWR Vertical Spine -->
+  <g id="spineLdoPwr">
+    <rect x="730" y="210" width="150" height="470" rx="10" fill="#1c1917" stroke="#ea580c" stroke-width="2" filter="url(#glowOrange)"/>
+    <text x="805" y="240" fill="#fed7aa" font-size="16" font-weight="700" text-anchor="middle">LDO_PWR</text>
+    <text x="805" y="262" fill="#f97316" font-size="14" font-weight="700" text-anchor="middle">3.8V ~ 4.0V</text>
+    <text x="805" y="280" fill="#94a3b8" font-size="11" text-anchor="middle">(典型值 3.9V)</text>
+    
+    <path d="M 745 295 L 865 295" stroke="#431407" stroke-width="1.5"/>
+    <text x="805" y="325" fill="#cbd5e1" font-size="11" text-anchor="middle">二级 LDO 汇聚总线</text>
+    <text x="805" y="345" fill="#94a3b8" font-size="11" text-anchor="middle">降压压差仅 0.6V</text>
+    <text x="805" y="365" fill="#10b981" font-size="11" font-weight="600" text-anchor="middle">根除 LDO 严重发热</text>
+    <text x="805" y="420" fill="#94a3b8" font-size="11" text-anchor="middle">分流给 7 路独立 LDO</text>
+    <text x="805" y="440" fill="#f97316" font-size="13" font-weight="700" text-anchor="middle">总流 ~372 mA</text>
+  </g>
+
+  <!-- Output from U28 to DC_5V Busbar -->
+  <path d="M 660 830 L 730 830" stroke="#10b981" stroke-width="4" marker-end="url(#arrGreen)"/>
+
+  <!-- Busbar 2: DC_5V Vertical Spine -->
+  <g id="spineDc5v">
+    <rect x="730" y="740" width="150" height="280" rx="10" fill="#022c22" stroke="#059669" stroke-width="2" filter="url(#glowGreen)"/>
+    <text x="805" y="775" fill="#a7f3d0" font-size="16" font-weight="700" text-anchor="middle">DC_5V</text>
+    <text x="805" y="798" fill="#10b981" font-size="14" font-weight="700" text-anchor="middle">模拟 5.0V 母线</text>
+    <text x="805" y="818" fill="#94a3b8" font-size="11" text-anchor="middle">(大电流射频放大级)</text>
+
+    <path d="M 745 835 L 865 835" stroke="#064e3b" stroke-width="1.5"/>
+    <text x="805" y="865" fill="#cbd5e1" font-size="11" text-anchor="middle">二级射频隔离总线</text>
+    <text x="805" y="885" fill="#94a3b8" font-size="11" text-anchor="middle">超低压差滤波稳压</text>
+    <text x="805" y="940" fill="#94a3b8" font-size="11" text-anchor="middle">分流给 3 路独立 LDO</text>
+    <text x="805" y="960" fill="#10b981" font-size="13" font-weight="700" text-anchor="middle">总流 ~325 mA</text>
+  </g>
+
+  <!-- ==================== STAGE 2: 10 INDEPENDENT LDOs ==================== -->
+  <!-- 
+    Branch A: LDO_PWR Branch (7 LDOs)
+    Y positions:
+    1. U30: y=210
+    2. U29: y=280
+    3. U35: y=350
+    4. U32: y=420
+    5. U34: y=490
+    6. U36: y=560
+    7. U33: y=630
+    
+    Branch B: DC_5V Branch (3 LDOs)
+    8. U26: y=740
+    9. U31: y=825
+    10. U27: y=910
+  -->
+
+  <!-- Helper for LDO lines from Spine 1 -->
+  <path d="M 880 235 L 950 235" stroke="#f97316" stroke-width="2" marker-end="url(#arrOrange)"/>
+  <path d="M 880 305 L 950 305" stroke="#f97316" stroke-width="2" marker-end="url(#arrOrange)"/>
+  <path d="M 880 375 L 950 375" stroke="#f97316" stroke-width="2" marker-end="url(#arrOrange)"/>
+  <path d="M 880 445 L 950 445" stroke="#f97316" stroke-width="2" marker-end="url(#arrOrange)"/>
+  <path d="M 880 515 L 950 515" stroke="#f97316" stroke-width="2" marker-end="url(#arrOrange)"/>
+  <path d="M 880 585 L 950 585" stroke="#f97316" stroke-width="2" marker-end="url(#arrOrange)"/>
+  <path d="M 880 655 L 950 655" stroke="#f97316" stroke-width="2" marker-end="url(#arrOrange)"/>
+
+  <!-- Helper for LDO lines from Spine 2 -->
+  <path d="M 880 770 L 950 770" stroke="#10b981" stroke-width="2" marker-end="url(#arrGreen)"/>
+  <path d="M 880 855 L 950 855" stroke="#10b981" stroke-width="2" marker-end="url(#arrGreen)"/>
+  <path d="M 880 940 L 950 940" stroke="#10b981" stroke-width="2" marker-end="url(#arrGreen)"/>
+
+  <!-- LDO 1: U30 (MCU 3.3V) -->
+  <g transform="translate(950, 205)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="60" rx="8" fill="url(#ldoGradAmber)" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="14" y="24" fill="#38bdf8" font-size="14" font-weight="700">U30: SGM2036-3.3V</text>
+    <text x="14" y="44" fill="#94a3b8" font-size="11">SOT-23-5 | Imax: 300mA | PSRR: 75dB</text>
+    <rect x="250" y="12" width="115" height="36" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="307" y="28" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">MCU_3V3</text>
+    <text x="307" y="42" fill="#10b981" font-size="10" text-anchor="middle">~100mA (33%)</text>
+  </g>
+
+  <!-- LDO 2: U29 (Analog 3.3V) -->
+  <g transform="translate(950, 275)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="60" rx="8" fill="url(#ldoGradAmber)" stroke="#38bdf8" stroke-width="1.5"/>
+    <text x="14" y="24" fill="#38bdf8" font-size="14" font-weight="700">U29: SGM2036-3.3V</text>
+    <text x="14" y="44" fill="#94a3b8" font-size="11">SOT-23-5 | Imax: 300mA | 模拟运放与混频</text>
+    <rect x="250" y="12" width="115" height="36" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="307" y="28" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">VCC_+3.3 V</text>
+    <text x="307" y="42" fill="#10b981" font-size="10" text-anchor="middle">~80mA (27%)</text>
+  </g>
+
+  <!-- LDO 3: U35 (Core 1.8V) -->
+  <g transform="translate(950, 345)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="60" rx="8" fill="url(#ldoGradAmber)" stroke="#f43f5e" stroke-width="1.5"/>
+    <text x="14" y="24" fill="#f43f5e" font-size="14" font-weight="700">U35: SGM2036-1.8V</text>
+    <text x="14" y="44" fill="#94a3b8" font-size="11">SOT-23-5 | 读写器数字基带核心供电</text>
+    <rect x="250" y="12" width="115" height="36" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="307" y="28" fill="#f43f5e" font-size="11" font-weight="700" text-anchor="middle">VCC_+1.8 V</text>
+    <text x="307" y="42" fill="#fbbf24" font-size="10" text-anchor="middle">~150mA (50%)</text>
+  </g>
+
+  <!-- LDO 4: U32 (TCXO 3.3V) -->
+  <g transform="translate(950, 415)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="60" rx="8" fill="url(#ldoGradAmber)" stroke="#a855f7" stroke-width="1.5"/>
+    <text x="14" y="24" fill="#c084fc" font-size="14" font-weight="700">U32: SGM2036-3.3V</text>
+    <text x="14" y="44" fill="#94a3b8" font-size="11">SOT-23-5 | 超低纹波 | 48MHz 参考源</text>
+    <rect x="250" y="12" width="115" height="36" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="307" y="28" fill="#c084fc" font-size="11" font-weight="700" text-anchor="middle">TCXO_PWR</text>
+    <text x="307" y="42" fill="#10b981" font-size="10" text-anchor="middle">~10mA (3.3%)</text>
+  </g>
+
+  <!-- LDO 5: U34 (SPDT 2.8V) -->
+  <g transform="translate(950, 485)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="60" rx="8" fill="url(#ldoGradAmber)" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="14" y="24" fill="#38bdf8" font-size="14" font-weight="700">U34: SGM2036-2.8V</text>
+    <text x="14" y="44" fill="#94a3b8" font-size="11">SOT-23-5 | 4路 SPDT 射频开关供电</text>
+    <rect x="250" y="12" width="115" height="36" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="307" y="28" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">VCC_SGM_SPDT</text>
+    <text x="307" y="42" fill="#10b981" font-size="10" text-anchor="middle">&lt;1mA (&lt;0.5%)</text>
+  </g>
+
+  <!-- LDO 6: U36 (DPDT 2.8V) -->
+  <g transform="translate(950, 555)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="60" rx="8" fill="url(#ldoGradAmber)" stroke="#38bdf8" stroke-width="1.2"/>
+    <text x="14" y="24" fill="#38bdf8" font-size="14" font-weight="700">U36: SGM2036-2.8V</text>
+    <text x="14" y="44" fill="#94a3b8" font-size="11">SOT-23-5 | 3路 DPDT 射频切换开关供电</text>
+    <rect x="250" y="12" width="115" height="36" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="307" y="28" fill="#38bdf8" font-size="11" font-weight="700" text-anchor="middle">VDD_DPDT</text>
+    <text x="307" y="42" fill="#10b981" font-size="10" text-anchor="middle">&lt;1mA (&lt;0.5%)</text>
+  </g>
+
+  <!-- LDO 7: U33 (TX BIAS ADJ) -->
+  <g transform="translate(950, 625)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="60" rx="8" fill="url(#ldoGradAmber)" stroke="#f59e0b" stroke-width="1.2"/>
+    <text x="14" y="24" fill="#fbbf24" font-size="14" font-weight="700">U33: SGM2036-ADJ</text>
+    <text x="14" y="44" fill="#94a3b8" font-size="11">SOT-23-5 | 发射链路增益偏置 (TX_EN使能)</text>
+    <rect x="250" y="12" width="115" height="36" rx="5" fill="#0f172a" stroke="#1e293b" stroke-width="1"/>
+    <text x="307" y="28" fill="#fbbf24" font-size="11" font-weight="700" text-anchor="middle">TX_BIAS</text>
+    <text x="307" y="42" fill="#10b981" font-size="10" text-anchor="middle">~30mA (10%)</text>
+  </g>
+
+  <!-- LDO 8: U26 (LNA 5V) -->
+  <g transform="translate(950, 740)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="65" rx="8" fill="url(#ldoGradCyan)" stroke="#10b981" stroke-width="1.5"/>
+    <text x="14" y="26" fill="#34d399" font-size="14" font-weight="700">U26: SGM2036-5V</text>
+    <text x="14" y="48" fill="#94a3b8" font-size="11">SOT-23-5 | 接收前端低噪放 (MCU GPIO使能)</text>
+    <rect x="250" y="14" width="115" height="38" rx="5" fill="#022c22" stroke="#065f46" stroke-width="1"/>
+    <text x="307" y="31" fill="#34d399" font-size="11" font-weight="700" text-anchor="middle">LNA_5V</text>
+    <text x="307" y="46" fill="#6ee7b7" font-size="10" text-anchor="middle">~130mA (43.3%)</text>
+  </g>
+
+  <!-- LDO 9: U31 (LO 5V) -->
+  <g transform="translate(950, 825)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="65" rx="8" fill="url(#ldoGradCyan)" stroke="#10b981" stroke-width="1.5"/>
+    <text x="14" y="26" fill="#34d399" font-size="14" font-weight="700">U31: SGM2036-5V</text>
+    <text x="14" y="48" fill="#94a3b8" font-size="11">SOT-23-5 | 本振参考驱动放大 (常开超低噪)</text>
+    <rect x="250" y="14" width="115" height="38" rx="5" fill="#022c22" stroke="#065f46" stroke-width="1"/>
+    <text x="307" y="31" fill="#34d399" font-size="11" font-weight="700" text-anchor="middle">LO_LNA_5V</text>
+    <text x="307" y="46" fill="#6ee7b7" font-size="10" text-anchor="middle">~130mA (43.3%)</text>
+  </g>
+
+  <!-- LDO 10: U27 (TX DRV 5V) -->
+  <g transform="translate(950, 910)" filter="url(#shadow)">
+    <rect x="0" y="0" width="380" height="65" rx="8" fill="url(#ldoGradCyan)" stroke="#10b981" stroke-width="1.5"/>
+    <text x="14" y="26" fill="#34d399" font-size="14" font-weight="700">U27: SGM2036-5V</text>
+    <text x="14" y="48" fill="#94a3b8" font-size="11">SOT-23-5 | 发射预驱放大级偏置 (TX_EN使能)</text>
+    <rect x="250" y="14" width="115" height="38" rx="5" fill="#022c22" stroke="#065f46" stroke-width="1"/>
+    <text x="307" y="31" fill="#34d399" font-size="11" font-weight="700" text-anchor="middle">NetC89_2</text>
+    <text x="307" y="46" fill="#6ee7b7" font-size="10" text-anchor="middle">~65mA (21.7%)</text>
+  </g>
+
+  <!-- ==================== STAGE 3: TARGET LOADS ==================== -->
+  <!-- Output lines from LDOs to Loads -->
+  <path d="M 1330 235 L 1400 235" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrBlue)"/>
+  <path d="M 1330 305 L 1400 305" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrBlue)"/>
+  <path d="M 1330 375 L 1400 375" stroke="#f43f5e" stroke-width="2" marker-end="url(#arrPurple)"/>
+  <path d="M 1330 445 L 1400 445" stroke="#c084fc" stroke-width="2" marker-end="url(#arrPurple)"/>
+  <path d="M 1330 515 L 1400 515" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrBlue)"/>
+  <path d="M 1330 585 L 1400 585" stroke="#38bdf8" stroke-width="2" marker-end="url(#arrBlue)"/>
+  <path d="M 1330 655 L 1400 655" stroke="#fbbf24" stroke-width="2" marker-end="url(#arrYellow)"/>
+
+  <path d="M 1330 770 L 1400 770" stroke="#10b981" stroke-width="2" marker-end="url(#arrGreen)"/>
+  <path d="M 1330 855 L 1400 855" stroke="#10b981" stroke-width="2" marker-end="url(#arrGreen)"/>
+  <path d="M 1330 940 L 1400 940" stroke="#10b981" stroke-width="2" marker-end="url(#arrGreen)"/>
+
+  <!-- Load 1: MCU Subsystem -->
+  <g transform="translate(1400, 205)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="60" rx="8" fill="url(#loadGrad)" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="20" cy="30" r="4" fill="#38bdf8"/>
+    <text x="35" y="26" fill="#f8fafc" font-size="13" font-weight="700">主控芯片 FM15F366 + 从机 MCU GD32E232 + QSPI Flash</text>
+    <text x="35" y="46" fill="#94a3b8" font-size="11">双 MCU 数字核心、时钟振荡、通信外设及板级控制总线 | 隔离数字开关噪声</text>
+  </g>
+
+  <!-- Load 2: Analog Baseband Subsystem -->
+  <g transform="translate(1400, 275)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="60" rx="8" fill="url(#loadGrad)" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="20" cy="30" r="4" fill="#38bdf8"/>
+    <text x="35" y="26" fill="#f8fafc" font-size="13" font-weight="700">模拟基带精密运放 TPH2502 + 无源混频 HGC550 + PE4302 衰减器</text>
+    <text x="35" y="46" fill="#94a3b8" font-size="11">极高 PSRR 要求，保障 I/Q 解调基带信号微伏级信噪比与极低底噪</text>
+  </g>
+
+  <!-- Load 3: Reader SOC Core 1.8V -->
+  <g transform="translate(1400, 345)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="60" rx="8" fill="url(#loadGrad)" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="20" cy="30" r="4" fill="#f43f5e"/>
+    <text x="35" y="26" fill="#f8fafc" font-size="13" font-weight="700">读写器专用芯片 FM13RD1616E 核心数字逻辑 (VDD_DIG)</text>
+    <text x="35" y="46" fill="#94a3b8" font-size="11">协议编解码硬件加速器、基带数字滤波及射频调制前级处理单元</text>
+  </g>
+
+  <!-- Load 4: 48MHz TCXO Reference -->
+  <g transform="translate(1400, 415)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="60" rx="8" fill="url(#loadGrad)" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="20" cy="30" r="4" fill="#c084fc"/>
+    <text x="35" y="26" fill="#f8fafc" font-size="13" font-weight="700">48MHz 高精度温补晶体振荡器 (TCXO) 经 L4 供电</text>
+    <text x="35" y="46" fill="#94a3b8" font-size="11">整板射频载波与锁相环 PLL 的绝对基准源，严防相位抖动 (Phase Noise)</text>
+  </g>
+
+  <!-- Load 5: SPDT Antenna Switches -->
+  <g transform="translate(1400, 485)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="60" rx="8" fill="url(#loadGrad)" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="20" cy="30" r="4" fill="#38bdf8"/>
+    <text x="35" y="26" fill="#f8fafc" font-size="13" font-weight="700">4 颗高频 SPDT 射频选通开关 (U13, U14, U22, U23)</text>
+    <text x="35" y="46" fill="#94a3b8" font-size="11">四天线极化与通道高速选通矩阵，静态电流微安级，极高隔离度</text>
+  </g>
+
+  <!-- Load 6: DPDT Routing Switches -->
+  <g transform="translate(1400, 555)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="60" rx="8" fill="url(#loadGrad)" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="20" cy="30" r="4" fill="#38bdf8"/>
+    <text x="35" y="26" fill="#f8fafc" font-size="13" font-weight="700">3 颗 DPDT 射频切换矩阵开关 (U10, U11, U12)</text>
+    <text x="35" y="46" fill="#94a3b8" font-size="11">发射与接收链路拓扑重构控制，独立供电杜绝开关动作干扰基带</text>
+  </g>
+
+  <!-- Load 7: PA Gain Bias -->
+  <g transform="translate(1400, 625)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="60" rx="8" fill="url(#loadGrad)" stroke="#1e293b" stroke-width="1"/>
+    <circle cx="20" cy="30" r="4" fill="#fbbf24"/>
+    <text x="35" y="26" fill="#f8fafc" font-size="13" font-weight="700">功放偏置控制网络 (NetC92_2) 与动态增益调节</text>
+    <text x="35" y="46" fill="#94a3b8" font-size="11">硬件 TX_EN 联动控制，在未发射时关闭偏置，显著降低空闲功耗</text>
+  </g>
+
+  <!-- Load 8: Front-End Dual LNA -->
+  <g transform="translate(1400, 740)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="65" rx="8" fill="url(#loadGrad)" stroke="#065f46" stroke-width="1"/>
+    <circle cx="20" cy="32" r="4" fill="#10b981"/>
+    <text x="35" y="28" fill="#f8fafc" font-size="13" font-weight="700">接收前端 FW1103 低噪声放大器群 (两级级联，MCU 使能)</text>
+    <text x="35" y="48" fill="#94a3b8" font-size="11">微弱反向散射信号高增益放大，超低电源纹波保障系统极高灵敏度</text>
+  </g>
+
+  <!-- Load 9: Local Oscillator Driver Amp -->
+  <g transform="translate(1400, 825)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="65" rx="8" fill="url(#loadGrad)" stroke="#065f46" stroke-width="1"/>
+    <circle cx="20" cy="32" r="4" fill="#10b981"/>
+    <text x="35" y="28" fill="#f8fafc" font-size="13" font-weight="700">本振信号 FW1103 驱动放大器 (U16, U21，两级驱动放大)</text>
+    <text x="35" y="48" fill="#94a3b8" font-size="11">提供混频器大动态驱动功率，常开超低噪电源杜绝相噪劣化</text>
+  </g>
+
+  <!-- Load 10: TX Driver Bias -->
+  <g transform="translate(1400, 910)" filter="url(#shadow)">
+    <rect x="0" y="0" width="550" height="65" rx="8" fill="url(#loadGrad)" stroke="#065f46" stroke-width="1"/>
+    <circle cx="20" cy="32" r="4" fill="#10b981"/>
+    <text x="35" y="28" fill="#f8fafc" font-size="13" font-weight="700">发射预驱放大级偏置 (NetC89_2) 与射频驱动链</text>
+    <text x="35" y="48" fill="#94a3b8" font-size="11">受 TX_EN 硬件同步使能，确保发射脉冲边沿陡峭且杂散抑制优异</text>
+  </g>
+
+  <!-- ==================== BOTTOM ARCHITECTURE INSIGHT CARDS ==================== -->
+  <g id="bottomInsights" transform="translate(50, 1050)">
+    <!-- Insight Card 1 -->
+    <g transform="translate(0, 0)" filter="url(#shadow)">
+      <rect x="0" y="0" width="600" height="240" rx="10" fill="url(#summaryGrad)" stroke="#334155" stroke-width="1.2"/>
+      <rect x="20" y="18" width="6" height="20" rx="2" fill="#f97316"/>
+      <text x="36" y="34" fill="#f8fafc" font-size="16" font-weight="700">1. 二级稳压温升根除机制（Thermal Optimization）</text>
+      <text x="20" y="66" fill="#cbd5e1" font-size="13" font-weight="600">传统缺陷：直接用 12V 降至 3.3V/1.8V 会产生巨大压差功耗</text>
+      <text x="20" y="90" fill="#94a3b8" font-size="12">例如 12V → 1.8V (ΔV=10.2V)，若电流 150mA，单个 LDO 发热达 1.53W，SOT-23 会严重过热烧毁。</text>
+      <text x="20" y="118" fill="#38bdf8" font-size="13" font-weight="600">拓扑突破：先经高效 Buck (U25) 降至 3.9V 中间母线 (LDO_PWR)</text>
+      <text x="20" y="142" fill="#94a3b8" font-size="12">使所有下游 3.3V/2.8V LDO 压差严格收敛在 0.6V~1.1V，单个 LDO 最大热耗仅为 1mW~60mW。</text>
+      <text x="20" y="166" fill="#10b981" font-size="12" font-weight="600">● 结论：彻底解决整机热岛效应，无需庞大散热器即可 7x24 小时满负荷工业级运行。</text>
+      <text x="20" y="196" fill="#64748b" font-size="11">整板电源转换效率从传统纯 LDO 的 &lt;25% 大幅跃升至整机 &gt;85%。</text>
+    </g>
+
+    <!-- Insight Card 2 -->
+    <g transform="translate(650, 0)" filter="url(#shadow)">
+      <rect x="0" y="0" width="600" height="240" rx="10" fill="url(#summaryGrad)" stroke="#334155" stroke-width="1.2"/>
+      <rect x="20" y="18" width="6" height="20" rx="2" fill="#38bdf8"/>
+      <text x="36" y="34" fill="#f8fafc" font-size="16" font-weight="700">2. 十路物理隔离抗干扰机制（RF / Analog Isolation）</text>
+      <text x="20" y="66" fill="#cbd5e1" font-size="13" font-weight="600">四重电磁隔离域：</text>
+      <text x="20" y="90" fill="#94a3b8" font-size="12">① 数字域：MCU_3V3 (U30) 与 VCC_+1.8V (U35) 吸收高频时钟毛刺。</text>
+      <text x="20" y="112" fill="#94a3b8" font-size="12">② 敏感基带：VCC_+3.3V (U29) 专供微伏级 TPH2502，隔离数模串扰。</text>
+      <text x="20" y="134" fill="#94a3b8" font-size="12">③ 极纯时钟：TCXO_PWR (U32) 75dB PSRR 纯化，保障载波超低相噪。</text>
+      <text x="20" y="156" fill="#94a3b8" font-size="12">④ 射频放大：LNA_5V (U26) 与 LO_LNA_5V (U31) 独立供电，阻断发射对接收的反窜。</text>
+      <text x="20" y="186" fill="#10b981" font-size="12" font-weight="600">● 结论：接收前端灵敏度大幅提升，避免发射大功率开启时的时钟与电源跌落。</text>
+      <text x="20" y="212" fill="#64748b" font-size="11">PCB 走线中各路 LDO 均配置局部去耦电容与伴随地过孔屏蔽墙。</text>
+    </g>
+
+    <!-- Insight Card 3 -->
+    <g transform="translate(1300, 0)" filter="url(#shadow)">
+      <rect x="0" y="0" width="600" height="240" rx="10" fill="url(#summaryGrad)" stroke="#334155" stroke-width="1.2"/>
+      <rect x="20" y="18" width="6" height="20" rx="2" fill="#10b981"/>
+      <text x="36" y="34" fill="#f8fafc" font-size="16" font-weight="700">3. 载流容量与可靠性裕量汇总（Design Margins）</text>
+      
+      <!-- Metrics table -->
+      <g transform="translate(20, 56)">
+        <rect x="0" y="0" width="560" height="26" fill="#1e293b" rx="4"/>
+        <text x="10" y="18" fill="#94a3b8" font-size="11" font-weight="600">电源节点</text>
+        <text x="120" y="18" fill="#94a3b8" font-size="11" font-weight="600">器件额定容量</text>
+        <text x="240" y="18" fill="#94a3b8" font-size="11" font-weight="600">全负荷实际电流</text>
+        <text x="380" y="18" fill="#94a3b8" font-size="11" font-weight="600">额定负载率</text>
+        <text x="490" y="18" fill="#94a3b8" font-size="11" font-weight="600">安全裕量</text>
+
+        <!-- Row 1 -->
+        <text x="10" y="44" fill="#cbd5e1" font-size="11">自恢复保险 F1</text>
+        <text x="120" y="44" fill="#cbd5e1" font-size="11">1.3 A (1300mA)</text>
+        <text x="240" y="44" fill="#f59e0b" font-size="11">~310 mA</text>
+        <text x="380" y="44" fill="#10b981" font-size="11" font-weight="600">23.8%</text>
+        <text x="490" y="44" fill="#10b981" font-size="11">+76.2%</text>
+
+        <!-- Row 2 -->
+        <text x="10" y="68" fill="#cbd5e1" font-size="11">Buck U25 (3.9V)</text>
+        <text x="120" y="68" fill="#cbd5e1" font-size="11">2.0 A (2000mA)</text>
+        <text x="240" y="68" fill="#f59e0b" font-size="11">~372 mA</text>
+        <text x="380" y="68" fill="#10b981" font-size="11" font-weight="600">18.6%</text>
+        <text x="490" y="68" fill="#10b981" font-size="11">+81.4%</text>
+
+        <!-- Row 3 -->
+        <text x="10" y="92" fill="#cbd5e1" font-size="11">Buck U28 (5.0V)</text>
+        <text x="120" y="92" fill="#cbd5e1" font-size="11">2.0 A (2000mA)</text>
+        <text x="240" y="92" fill="#f59e0b" font-size="11">~325 mA</text>
+        <text x="380" y="92" fill="#10b981" font-size="11" font-weight="600">16.3%</text>
+        <text x="490" y="92" fill="#10b981" font-size="11">+83.7%</text>
+
+        <!-- Row 4 -->
+        <text x="10" y="116" fill="#cbd5e1" font-size="11">最大支路 LDO U35</text>
+        <text x="120" y="116" fill="#cbd5e1" font-size="11">300 mA</text>
+        <text x="240" y="116" fill="#f59e0b" font-size="11">~150 mA</text>
+        <text x="380" y="116" fill="#fbbf24" font-size="11" font-weight="600">50.0%</text>
+        <text x="490" y="116" fill="#10b981" font-size="11">+50.0%</text>
+
+        <!-- Row 5 -->
+        <text x="10" y="140" fill="#cbd5e1" font-size="11">其他 9 路 LDO</text>
+        <text x="120" y="140" fill="#cbd5e1" font-size="11">各 300 mA</text>
+        <text x="240" y="140" fill="#f59e0b" font-size="11">&lt;1mA ~ 130mA</text>
+        <text x="380" y="140" fill="#10b981" font-size="11" font-weight="600">&lt;0.5% ~ 43%</text>
+        <text x="490" y="140" fill="#10b981" font-size="11">&gt;+57%</text>
+      </g>
+      <text x="20" y="222" fill="#10b981" font-size="12" font-weight="600">● 评估定论：全板无任何电流瓶颈，设计极其宽裕，符合军工/工业级高可靠性标准。</text>
+    </g>
+  </g>
+</svg>

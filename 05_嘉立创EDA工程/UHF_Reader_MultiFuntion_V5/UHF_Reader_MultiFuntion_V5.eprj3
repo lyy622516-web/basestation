@@ -1,0 +1,344 @@
+{
+  "name": "UHF_Reader_MultiFuntion_V5",
+  "owner_uuid": "0897adb066894fd1af05cbcc1084991e",
+  "creator_uuid": "0897adb066894fd1af05cbcc1084991e",
+  "created_at": "2026-11-06 16:17:38",
+  "updated_at": "2026-11-06 16:17:38",
+  "modifier_uuid": "0897adb066894fd1af05cbcc1084991e",
+  "content": "",
+  "archive": false,
+  "cbb_project": 0,
+  "thumb": "",
+  "ticket": 1,
+  "g_ticket": 1,
+  "boards": [
+    {
+      "uuid": "743092b20c841381",
+      "name": "UHF_Reader_MultiFunction_V4",
+      "schematic": {
+        "uuid": "8c564cbaeefecb7a",
+        "name": "UHF_Reader_MultiFuntion_V5"
+      },
+      "pcb": {
+        "uuid": "dda4cc51b5fc6471",
+        "name": "UHF_Reader_MultiFunction_V4"
+      }
+    }
+  ],
+  "block_symbol_attrs_groups": {},
+  "default_sheet": "",
+  "branch_uuid": "",
+  "pcb_count": 1,
+  "format": "folder",
+  "config": {
+    "defaultSheet": "",
+    "settings": {}
+  },
+  "profile": {
+    "boards": {
+      "743092b20c841381": {
+        "uuid": "743092b20c841381",
+        "title": "UHF_Reader_MultiFuntion_V5_1",
+        "zIndex": 1
+      }
+    },
+    "schematics": {
+      "781b0c39fb23a086": {
+        "uuid": "781b0c39fb23a086",
+        "name": "BaseStation1",
+        "board": "",
+        "source": "",
+        "version": "1793953679021",
+        "updateTime": 1793953679021
+      },
+      "240b9c508235f5e1": {
+        "uuid": "240b9c508235f5e1",
+        "name": "FMRD1616E",
+        "board": "",
+        "source": "",
+        "version": "1793954298847",
+        "updateTime": 1793954298847
+      },
+      "940af6262e155680": {
+        "uuid": "940af6262e155680",
+        "name": "lichuang",
+        "board": "",
+        "source": "",
+        "version": "1793953654455",
+        "updateTime": 1793953654455
+      },
+      "3c810a1544706db5": {
+        "uuid": "3c810a1544706db5",
+        "name": "MCU",
+        "board": "",
+        "source": "",
+        "version": "1793954313205",
+        "updateTime": 1793954313205
+      },
+      "960958cbc05028ba": {
+        "uuid": "960958cbc05028ba",
+        "name": "MCU_SLAVE",
+        "board": "",
+        "source": "",
+        "version": "1793954317401",
+        "updateTime": 1793954317401
+      },
+      "be9c99ebf69a3a82": {
+        "uuid": "be9c99ebf69a3a82",
+        "name": "Power_Sch",
+        "board": "",
+        "source": "",
+        "version": "1793954327004",
+        "updateTime": 1793954327004
+      },
+      "b2a9af641cf2bf63": {
+        "uuid": "b2a9af641cf2bf63",
+        "name": "RF_circuit",
+        "board": "",
+        "source": "",
+        "version": "1793954355274",
+        "updateTime": 1793954355274
+      },
+      "8c564cbaeefecb7a": {
+        "uuid": "8c564cbaeefecb7a",
+        "name": "UHF_Reader_MultiFuntion_V5",
+        "board": "743092b20c841381",
+        "source": "",
+        "version": "1793953532326",
+        "updateTime": 1793953532326
+      }
+    },
+    "sheets": {
+      "30968987fbc1647d": {
+        "uuid": "30968987fbc1647d",
+        "title": "top",
+        "schematic_uuid": "781b0c39fb23a086",
+        "zIndex": 1,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "8fa31840ba825b92": {
+        "uuid": "8fa31840ba825b92",
+        "title": "FMRD1616E",
+        "schematic_uuid": "240b9c508235f5e1",
+        "zIndex": 2,
+        "source": "",
+        "version": "1793954298847",
+        "updateTime": 1793954298847
+      },
+      "bbbca101b360e299": {
+        "uuid": "bbbca101b360e299",
+        "title": "1.25T-12P-LT_2025-05-14",
+        "schematic_uuid": "940af6262e155680",
+        "zIndex": 3,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "9e364700c984f124": {
+        "uuid": "9e364700c984f124",
+        "title": "GD32E232K8Q7TR_2025-05-29",
+        "schematic_uuid": "940af6262e155680",
+        "zIndex": 4,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "07dc7dde94c1bf76": {
+        "uuid": "07dc7dde94c1bf76",
+        "title": "MAX485ED_2024-07-29",
+        "schematic_uuid": "940af6262e155680",
+        "zIndex": 5,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "e98944c2045546cf": {
+        "uuid": "e98944c2045546cf",
+        "title": "MMBT3904-C20526_2024-07-29",
+        "schematic_uuid": "940af6262e155680",
+        "zIndex": 6,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "2ef9ed7773e0c42f": {
+        "uuid": "2ef9ed7773e0c42f",
+        "title": "MXD8625C_2025-05-07",
+        "schematic_uuid": "940af6262e155680",
+        "zIndex": 7,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "3fdc6001a068d82e": {
+        "uuid": "3fdc6001a068d82e",
+        "title": "STM32L451CET6_2025-05-21",
+        "schematic_uuid": "940af6262e155680",
+        "zIndex": 8,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "e99e682aca69cae1": {
+        "uuid": "e99e682aca69cae1",
+        "title": "MCU",
+        "schematic_uuid": "3c810a1544706db5",
+        "zIndex": 9,
+        "source": "",
+        "version": "1793954313205",
+        "updateTime": 1793954313205
+      },
+      "35d0bca337813128": {
+        "uuid": "35d0bca337813128",
+        "title": "MCU_SLAVE",
+        "schematic_uuid": "960958cbc05028ba",
+        "zIndex": 10,
+        "source": "",
+        "version": "1793954317401",
+        "updateTime": 1793954317401
+      },
+      "3e7683d1ed324ce9": {
+        "uuid": "3e7683d1ed324ce9",
+        "title": "Power_Sch",
+        "schematic_uuid": "be9c99ebf69a3a82",
+        "zIndex": 11,
+        "source": "",
+        "version": "1793954327004",
+        "updateTime": 1793954327004
+      },
+      "89cd87358a17e3c2": {
+        "uuid": "89cd87358a17e3c2",
+        "title": "RF_circuit",
+        "schematic_uuid": "b2a9af641cf2bf63",
+        "zIndex": 12,
+        "source": "",
+        "version": "1793954355274",
+        "updateTime": 1793954355274
+      },
+      "2d94cb183ed4ccdc": {
+        "uuid": "2d94cb183ed4ccdc",
+        "title": "UHF_Reader_MultiFunction",
+        "schematic_uuid": "8c564cbaeefecb7a",
+        "zIndex": 13,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      }
+    },
+    "pcbs": {
+      "52caa9452ee66dee": {
+        "uuid": "52caa9452ee66dee",
+        "title": "BGA-6_L1.1-W0.7-R3-C2-P0.40-BR_2025-05-07",
+        "board": "",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793953656875",
+        "updateTime": 1793953656875
+      },
+      "6e495d90e2f821fd": {
+        "uuid": "6e495d90e2f821fd",
+        "title": "CONN-SMD_1.25T-12P-LT_2025-05-14",
+        "board": "",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793953678264",
+        "updateTime": 1793953678264
+      },
+      "4c6d574bd7320452": {
+        "uuid": "4c6d574bd7320452",
+        "title": "LQFP-48_L7.0-W7.0-P0.50-LS9.0-BL_1_2025-05-21",
+        "board": "",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "a14ef34ce1cdeb05": {
+        "uuid": "a14ef34ce1cdeb05",
+        "title": "QFN-32_L4.0-W4.0-P0.40-TL-EP2.8_2025-05-29",
+        "board": "",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "ab285bcb20cae237": {
+        "uuid": "ab285bcb20cae237",
+        "title": "SOP-8_L4.9-W3.9-P1.27-LS6.0-BL_2024-07-29",
+        "board": "",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "858a5f81603d1987": {
+        "uuid": "858a5f81603d1987",
+        "title": "SOT-23-3_L2.9-W1.3-P1.90-LS2.4-BR_2024-07-29",
+        "board": "",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "dda4cc51b5fc6471": {
+        "uuid": "dda4cc51b5fc6471",
+        "title": "UHF_Reader_MultiFunction_V4",
+        "board": "743092b20c841381",
+        "parent_uuid": "",
+        "source": "",
+        "version": "1793954278687",
+        "updateTime": 1793954278687
+      }
+    },
+    "panels": {},
+    "blockSymbols": {
+      "d6ff080a4bc82b34": {
+        "uuid": "d6ff080a4bc82b34",
+        "title": "FMRD1616E",
+        "docType": 17,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "81c9fe7e439bc57a": {
+        "uuid": "81c9fe7e439bc57a",
+        "title": "MCU",
+        "docType": 17,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "ca5d107f7a4f4b06": {
+        "uuid": "ca5d107f7a4f4b06",
+        "title": "MCU_SLAVE",
+        "docType": 17,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "26fc5b555e7d28c3": {
+        "uuid": "26fc5b555e7d28c3",
+        "title": "Power_Sch",
+        "docType": 17,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      },
+      "e252a686e9242f09": {
+        "uuid": "e252a686e9242f09",
+        "title": "RF_circuit",
+        "docType": 17,
+        "source": "",
+        "version": "1793953031525",
+        "updateTime": 1793953031525
+      }
+    },
+    "owner": {
+      "uuid": "0897adb066894fd1af05cbcc1084991e"
+    },
+    "simSchematics": {},
+    "simulations": {}
+  }
+}

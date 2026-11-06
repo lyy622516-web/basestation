@@ -1,0 +1,700 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1780 1100" width="100%" height="100%" style="background:#0b1120; font-family:'Segoe UI',-apple-system,BlinkMacSystemFont,'PingFang SC','Microsoft YaHei',sans-serif;">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070c18"/>
+      <stop offset="50%" stop-color="#0b1329"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
+
+    <!-- Chip Core Gradients -->
+    <linearGradient id="socGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e3a8a"/>
+      <stop offset="100%" stop-color="#0f172a"/>
+    </linearGradient>
+
+    <linearGradient id="mcuMasterGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e7490"/>
+      <stop offset="100%" stop-color="#083344"/>
+    </linearGradient>
+
+    <linearGradient id="mcuSlaveGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e"/>
+      <stop offset="100%" stop-color="#042f2e"/>
+    </linearGradient>
+
+    <linearGradient id="paGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#581c87"/>
+      <stop offset="100%" stop-color="#2e1065"/>
+    </linearGradient>
+
+    <linearGradient id="switchGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#312e81"/>
+      <stop offset="100%" stop-color="#1e1b4b"/>
+    </linearGradient>
+
+    <linearGradient id="pwrGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#451a03"/>
+      <stop offset="100%" stop-color="#1c1917"/>
+    </linearGradient>
+
+    <!-- Drop Shadows -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#000000" flood-opacity="0.6"/>
+    </filter>
+
+    <filter id="txGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#ef4444" flood-opacity="0.9"/>
+    </filter>
+
+    <filter id="rxGlow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="0" stdDeviation="3" flood-color="#06b6d4" flood-opacity="0.9"/>
+    </filter>
+
+    <!-- Markers -->
+    <marker id="arrTx" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#ef4444"/>
+    </marker>
+    <marker id="arrRx" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#06b6d4"/>
+    </marker>
+    <marker id="arrClk" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#c084fc"/>
+    </marker>
+    <marker id="arrCtrl" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#10b981"/>
+    </marker>
+    <marker id="arrPwr" viewBox="0 0 10 10" refX="6" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M 0 1 L 8 5 L 0 9 z" fill="#f59e0b"/>
+    </marker>
+  </defs>
+
+  <!-- Canvas Background -->
+  <rect width="100%" height="100%" fill="url(#bgGrad)"/>
+
+  <!-- Subtle Blueprint Grid -->
+  <g stroke="#1e293b" stroke-width="0.7" opacity="0.35">
+    <path d="M 0 110 H 1780 M 0 220 H 1780 M 0 330 H 1780 M 0 440 H 1780 M 0 550 H 1780 M 0 660 H 1780 M 0 770 H 1780 M 0 880 H 1780 M 0 990 H 1780"/>
+    <path d="M 160 0 V 1100 M 320 0 V 1100 M 480 0 V 1100 M 640 0 V 1100 M 800 0 V 1100 M 960 0 V 1100 M 1120 0 V 1100 M 1280 0 V 1100 M 1440 0 V 1100 M 1600 0 V 1100"/>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- HEADER: TITLE & SPECIFICATION BAR                                         -->
+  <!-- ========================================================================= -->
+  <g transform="translate(40, 24)">
+    <rect x="0" y="0" width="1700" height="60" rx="8" fill="#1e293b" stroke="#334155" stroke-width="1.2" filter="url(#shadow)"/>
+    <text x="24" y="38" font-size="21" font-weight="800" fill="#f8fafc" letter-spacing="0.5">UHF_Reader_MultiFunction_V5 硬件系统架构与物理链路拓扑图</text>
+    <text x="690" y="36" font-size="13" font-weight="500" fill="#94a3b8">|  PCB物理布局映射 (66.1×56.5mm) &amp; AD9361 高清系统流标杆建模 (对齐 Visio 链路预算)</text>
+
+    <!-- Legend Indicators -->
+    <g transform="translate(1180, 18)">
+      <rect x="0" y="0" width="92" height="24" rx="4" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="1"/>
+      <circle cx="12" cy="12" r="4" fill="#ef4444"/>
+      <text x="24" y="16" font-size="11" font-weight="600" fill="#fca5a5">RF Tx (发射)</text>
+
+      <rect x="100" y="0" width="92" height="24" rx="4" fill="#06b6d4" fill-opacity="0.15" stroke="#06b6d4" stroke-width="1"/>
+      <circle cx="112" cy="12" r="4" fill="#06b6d4"/>
+      <text x="124" y="16" font-size="11" font-weight="600" fill="#67e8f9">RF Rx (接收)</text>
+
+      <rect x="200" y="0" width="92" height="24" rx="4" fill="#c084fc" fill-opacity="0.15" stroke="#c084fc" stroke-width="1"/>
+      <circle cx="212" cy="12" r="4" fill="#c084fc"/>
+      <text x="224" y="16" font-size="11" font-weight="600" fill="#d8b4fe">LO/时钟同步</text>
+
+      <rect x="300" y="0" width="92" height="24" rx="4" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="1"/>
+      <circle cx="312" cy="12" r="4" fill="#10b981"/>
+      <text x="324" y="16" font-size="11" font-weight="600" fill="#6ee7b7">数字总线/控制</text>
+
+      <rect x="400" y="0" width="92" height="24" rx="4" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="1"/>
+      <circle cx="412" cy="12" r="4" fill="#f59e0b"/>
+      <text x="424" y="16" font-size="11" font-weight="600" fill="#fcd34d">电源配电</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- TOP SUB-SYSTEM: POWER DISTRIBUTION (U_Power_Sch)                          -->
+  <!-- ========================================================================= -->
+  <g id="PowerDomain" transform="translate(40, 100)">
+    <rect x="0" y="0" width="1700" height="88" rx="8" fill="url(#pwrGrad)" stroke="#b45309" stroke-width="1.2" stroke-dasharray="4,3"/>
+    <rect x="16" y="-12" width="170" height="22" rx="4" fill="#b45309"/>
+    <text x="24" y="3" font-size="11" font-weight="700" fill="#ffffff">电源调理与配电阵列 (Power Rail)</text>
+
+    <!-- DC 12V Main Input -->
+    <g transform="translate(25, 20)">
+      <rect x="0" y="0" width="100" height="48" rx="4" fill="#292524" stroke="#78716c" stroke-width="1.2"/>
+      <text x="50" y="22" text-anchor="middle" font-size="12" font-weight="700" fill="#f5f5f4">DC 12V In</text>
+      <text x="50" y="38" text-anchor="middle" font-size="9" fill="#a8a29e">端机主直流输入</text>
+    </g>
+
+    <path d="M 125 44 H 160" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrPwr)"/>
+
+    <!-- Stage 1 DCDC Regulators -->
+    <g transform="translate(160, 16)">
+      <rect x="0" y="0" width="220" height="56" rx="5" fill="#1c1917" stroke="#f59e0b" stroke-width="1.2"/>
+      <text x="110" y="24" text-anchor="middle" font-size="12" font-weight="700" fill="#fbbf24">U25 / U28 : SY8121BABC</text>
+      <text x="110" y="42" text-anchor="middle" font-size="10" fill="#d6d3d1">2A 高效同步降压转换器 (12V → 5V / 3.3V)</text>
+    </g>
+
+    <path d="M 380 44 H 425" stroke="#f59e0b" stroke-width="2.5" marker-end="url(#arrPwr)"/>
+
+    <!-- Stage 2 LDO Isolated Array -->
+    <g transform="translate(425, 14)">
+      <rect x="0" y="0" width="1250" height="60" rx="5" fill="#1c1917" stroke="#d97706" stroke-width="1.2"/>
+      <text x="20" y="36" font-size="12" font-weight="700" fill="#fbbf24">超低噪声 LDO 阵列 (SGM2036 隔离供电架构 - PSRR=75dB)</text>
+
+      <g transform="translate(350, 10)">
+        <rect x="0" y="0" width="210" height="40" rx="4" fill="#292524" stroke="#d97706"/>
+        <text x="105" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#fef3c7">U26, U27, U31 [5.0V]</text>
+        <text x="105" y="32" text-anchor="middle" font-size="9" fill="#d6d3d1">供给 HGC2005 功放与驱动级</text>
+      </g>
+
+      <g transform="translate(575, 10)">
+        <rect x="0" y="0" width="210" height="40" rx="4" fill="#292524" stroke="#d97706"/>
+        <text x="105" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#fef3c7">U29, U30, U32 [3.3V]</text>
+        <text x="105" y="32" text-anchor="middle" font-size="9" fill="#d6d3d1">供给 FM15/GD32 MCU 及外围</text>
+      </g>
+
+      <g transform="translate(800, 10)">
+        <rect x="0" y="0" width="210" height="40" rx="4" fill="#292524" stroke="#d97706"/>
+        <text x="105" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#fef3c7">U34, U36 [2.8V]</text>
+        <text x="105" y="32" text-anchor="middle" font-size="9" fill="#d6d3d1">供给 MXD8625C 射频开关组</text>
+      </g>
+
+      <g transform="translate(1025, 10)">
+        <rect x="0" y="0" width="210" height="40" rx="4" fill="#292524" stroke="#d97706"/>
+        <text x="105" y="18" text-anchor="middle" font-size="11" font-weight="700" fill="#fef3c7">U35 [1.8V] / U33 [ADJ]</text>
+        <text x="105" y="32" text-anchor="middle" font-size="9" fill="#d6d3d1">供给 FM13RD1616 内核与PLL</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- LEFT ZONE: PHYSICAL INPUT/OUTPUT INTERFACES (PCB X ≈ 26.7mm)              -->
+  <!-- ========================================================================= -->
+  <g id="LeftConnectors" transform="translate(40, 210)">
+    <rect x="0" y="0" width="140" height="850" rx="8" fill="#111827" stroke="#334155" stroke-width="1.2" filter="url(#shadow)"/>
+    <text x="70" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#e2e8f0">左侧物理接口</text>
+    <text x="70" y="46" text-anchor="middle" font-size="10" fill="#64748b">(PCB X ≈ 26.7mm)</text>
+
+    <!-- RF3: RX Aux Port (Pos: 26.9, 109.8mm) -->
+    <g transform="translate(15, 80)">
+      <rect x="0" y="0" width="110" height="60" rx="5" fill="#1e293b" stroke="#06b6d4" stroke-width="1.5"/>
+      <circle cx="22" cy="30" r="9" fill="#06b6d4" fill-opacity="0.25" stroke="#06b6d4" stroke-width="1.5"/>
+      <circle cx="22" cy="30" r="3.5" fill="#06b6d4"/>
+      <text x="68" y="27" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">RF3</text>
+      <text x="68" y="45" text-anchor="middle" font-size="9" fill="#67e8f9">IPEX: RX 辅入</text>
+    </g>
+
+    <!-- RF2: LO / Calibration Tap (Pos: 26.9, 105.1mm) -->
+    <g transform="translate(15, 200)">
+      <rect x="0" y="0" width="110" height="60" rx="5" fill="#1e293b" stroke="#c084fc" stroke-width="1.5"/>
+      <circle cx="22" cy="30" r="9" fill="#c084fc" fill-opacity="0.25" stroke="#c084fc" stroke-width="1.5"/>
+      <circle cx="22" cy="30" r="3.5" fill="#c084fc"/>
+      <text x="68" y="27" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">RF2</text>
+      <text x="68" y="45" text-anchor="middle" font-size="9" fill="#d8b4fe">IPEX: LO/泄漏对消</text>
+    </g>
+
+    <!-- RF1: External Clock Input (Pos: 26.7, 77.0mm) -->
+    <g transform="translate(15, 460)">
+      <rect x="0" y="0" width="110" height="60" rx="5" fill="#1e293b" stroke="#c084fc" stroke-width="1.5"/>
+      <circle cx="22" cy="30" r="9" fill="#c084fc" fill-opacity="0.25" stroke="#c084fc" stroke-width="1.5"/>
+      <circle cx="22" cy="30" r="3.5" fill="#c084fc"/>
+      <text x="68" y="27" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">RF1</text>
+      <text x="68" y="45" text-anchor="middle" font-size="9" fill="#d8b4fe">IPEX: 48M外时钟</text>
+    </g>
+
+    <!-- Main Header J1/J2 -->
+    <g transform="translate(15, 680)">
+      <rect x="0" y="0" width="110" height="130" rx="5" fill="#1e293b" stroke="#10b981" stroke-width="1.5"/>
+      <text x="55" y="26" text-anchor="middle" font-size="11" font-weight="700" fill="#34d399">排针接口 J1/J2</text>
+      <text x="55" y="50" text-anchor="middle" font-size="10" fill="#cbd5e1">Ethernet 组网</text>
+      <text x="55" y="70" text-anchor="middle" font-size="10" fill="#cbd5e1">RS485 差分总线</text>
+      <text x="55" y="90" text-anchor="middle" font-size="10" fill="#cbd5e1">UART / SPI 通信</text>
+      <text x="55" y="110" text-anchor="middle" font-size="10" fill="#cbd5e1">SWD 烧录与调试</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- CENTER CORE TRANSCEIVER: U4 FM13RD1616 + BALUNS (PCB X ≈ 46.0, Y ≈ 91.5)  -->
+  <!-- ========================================================================= -->
+  <g id="TransceiverSoc" transform="translate(220, 210)">
+    <rect x="0" y="0" width="370" height="380" rx="8" fill="url(#socGrad)" stroke="#3b82f6" stroke-width="1.8" filter="url(#shadow)"/>
+    <rect x="16" y="-12" width="220" height="24" rx="4" fill="#2563eb"/>
+    <text x="26" y="4" font-size="12" font-weight="700" fill="#ffffff">核心收发器 (FM13RD1616 QFN-64)</text>
+
+    <!-- SOC Body -->
+    <g transform="translate(20, 30)">
+      <rect x="0" y="0" width="330" height="220" rx="6" fill="#0f172a" stroke="#60a5fa" stroke-width="1.5"/>
+      <text x="165" y="30" text-anchor="middle" font-size="16" font-weight="800" fill="#ffffff">U4 : FM13RD1616</text>
+      <text x="165" y="48" text-anchor="middle" font-size="11" fill="#93c5fd">高集成 UHF RFID 读写器单芯片 (Pos: 46.0, 91.5mm)</text>
+      
+      <!-- Internal Sub-blocks -->
+      <!-- RX Demodulator -->
+      <g transform="translate(15, 68)">
+        <rect x="0" y="0" width="90" height="50" rx="4" fill="#0c4a6e" stroke="#38bdf8"/>
+        <text x="45" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">正交解调器</text>
+        <text x="45" y="38" text-anchor="middle" font-size="9" fill="#bae6fd">I/Q Mixer</text>
+      </g>
+
+      <!-- Fractional-N PLL -->
+      <g transform="translate(120, 68)">
+        <rect x="0" y="0" width="90" height="50" rx="4" fill="#3b0764" stroke="#c084fc"/>
+        <text x="45" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">分数N分频PLL</text>
+        <text x="45" y="38" text-anchor="middle" font-size="9" fill="#f3e8ff">840-960MHz</text>
+      </g>
+
+      <!-- TX Modulator -->
+      <g transform="translate(225, 68)">
+        <rect x="0" y="0" width="90" height="50" rx="4" fill="#7f1d1d" stroke="#f87171"/>
+        <text x="45" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">数字调制器</text>
+        <text x="45" y="38" text-anchor="middle" font-size="9" fill="#fecaca">TX DAC / PGA</text>
+      </g>
+
+      <!-- Baseband & Gen2 Engine -->
+      <g transform="translate(15, 130)">
+        <rect x="0" y="0" width="300" height="38" rx="4" fill="#1e3a5f" stroke="#3b82f6"/>
+        <text x="150" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#bfdbfe">ISO 18000-6C / EPC Class1 Gen2 硬件基带引擎</text>
+      </g>
+      <text x="165" y="195" text-anchor="middle" font-size="10" fill="#94a3b8">包含 138 个精密阻容感匹配与滤波元件 (C65~C95, R14~R24)</text>
+    </g>
+
+    <!-- Balun Transformers (U5, U2, U3) -->
+    <g transform="translate(20, 270)">
+      <!-- U5 RX Balun -->
+      <g transform="translate(0, 0)">
+        <rect x="0" y="0" width="100" height="85" rx="4" fill="#082f49" stroke="#0ea5e9" stroke-width="1.2"/>
+        <text x="50" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">U5: RX 巴伦</text>
+        <text x="50" y="40" text-anchor="middle" font-size="9" fill="#bae6fd">SLBL18-1R500G</text>
+        <text x="50" y="58" text-anchor="middle" font-size="9" fill="#38bdf8">IL = 1.5dB</text>
+        <text x="50" y="74" text-anchor="middle" font-size="8" fill="#e0f2fe">差分 → 单端RX</text>
+      </g>
+
+      <!-- U2 LO Balun -->
+      <g transform="translate(115, 0)">
+        <rect x="0" y="0" width="100" height="85" rx="4" fill="#2e1065" stroke="#a855f7" stroke-width="1.2"/>
+        <text x="50" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">U2: LO 巴伦</text>
+        <text x="50" y="40" text-anchor="middle" font-size="9" fill="#f3e8ff">SLBL18-1R500G</text>
+        <text x="50" y="58" text-anchor="middle" font-size="9" fill="#c084fc">IL = 1.5dB</text>
+        <text x="50" y="74" text-anchor="middle" font-size="8" fill="#f3e8ff">PLO: -12~12dBm</text>
+      </g>
+
+      <!-- U3 TX Balun -->
+      <g transform="translate(230, 0)">
+        <rect x="0" y="0" width="100" height="85" rx="4" fill="#450a0a" stroke="#ef4444" stroke-width="1.2"/>
+        <text x="50" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">U3: TX 巴伦</text>
+        <text x="50" y="40" text-anchor="middle" font-size="9" fill="#fecaca">SLBL18-1R500G</text>
+        <text x="50" y="58" text-anchor="middle" font-size="9" fill="#f87171">IL = 1.5dB</text>
+        <text x="50" y="74" text-anchor="middle" font-size="8" fill="#fee2e2">差分 → 单端TX</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- BOTTOM-LEFT: MASTER MCU & TCXO CLOCK SUBSYSTEM (PCB X ≈ 40~55, Y ≈ 71~83) -->
+  <!-- ========================================================================= -->
+  <g id="MasterMcuClock" transform="translate(220, 620)">
+    <rect x="0" y="0" width="370" height="440" rx="8" fill="url(#mcuMasterGrad)" stroke="#0891b2" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="16" y="-12" width="200" height="24" rx="4" fill="#0891b2"/>
+    <text x="26" y="4" font-size="12" font-weight="700" fill="#ffffff">主控与时钟域 (Master &amp; TCXO)</text>
+
+    <!-- Master MCU U1: FM15F366 -->
+    <g transform="translate(25, 30)">
+      <rect x="0" y="0" width="320" height="175" rx="6" fill="#0f172a" stroke="#38bdf8" stroke-width="1.5"/>
+      <text x="160" y="30" text-anchor="middle" font-size="16" font-weight="800" fill="#f0f9ff">U1 : FM15F366</text>
+      <text x="160" y="50" text-anchor="middle" font-size="11" fill="#7dd3fc">主控安全微控制器 (LQFP-48 | Pos: 40.6, 80.9mm)</text>
+      
+      <!-- Crystal Y1 -->
+      <g transform="translate(195, 70)">
+        <rect x="0" y="0" width="110" height="35" rx="4" fill="#1e293b" stroke="#64748b"/>
+        <text x="55" y="22" text-anchor="middle" font-size="10" font-weight="600" fill="#cbd5e1">Y1: 12MHz 晶振</text>
+      </g>
+
+      <!-- Function Chips -->
+      <g transform="translate(15, 70)">
+        <rect x="0" y="0" width="165" height="28" rx="3" fill="#0369a1" fill-opacity="0.3"/>
+        <text x="82" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#38bdf8">QSPI 射频协议栈高带宽高吞吐</text>
+      </g>
+      <g transform="translate(15, 105)">
+        <rect x="0" y="0" width="165" height="28" rx="3" fill="#0369a1" fill-opacity="0.3"/>
+        <text x="82" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#38bdf8">12-bit ADC 检波功率闭环采样</text>
+      </g>
+      <g transform="translate(15, 140)">
+        <rect x="0" y="0" width="290" height="24" rx="3" fill="#082f49"/>
+        <text x="145" y="16" text-anchor="middle" font-size="10" fill="#93c5fd">含 15 个精密阻容感 (C1~C10, R1~R5) 稳定滤波系统</text>
+      </g>
+    </g>
+
+    <!-- Clock Generation & Switch -->
+    <g transform="translate(25, 230)">
+      <rect x="0" y="0" width="320" height="180" rx="6" fill="#180e29" stroke="#c084fc" stroke-width="1.2"/>
+      <text x="160" y="26" text-anchor="middle" font-size="13" font-weight="700" fill="#f3e8ff">高稳定度相干时钟发生与切换</text>
+
+      <!-- U6 48MHz TCXO (51.2, 81.0mm) -->
+      <g transform="translate(20, 50)">
+        <rect x="0" y="0" width="125" height="65" rx="4" fill="#2e1065" stroke="#a855f7" stroke-width="1.2"/>
+        <text x="62" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">U6 : 48MHz</text>
+        <text x="62" y="44" text-anchor="middle" font-size="10" fill="#d8b4fe">温补晶振 TCXO</text>
+        <text x="62" y="58" text-anchor="middle" font-size="8" fill="#e9d5ff">±0.5ppm 高精</text>
+      </g>
+
+      <!-- U7 ADG918 RF Clock Switch (55.8, 82.7mm) -->
+      <g transform="translate(175, 50)">
+        <rect x="0" y="0" width="125" height="65" rx="4" fill="#2e1065" stroke="#a855f7" stroke-width="1.2"/>
+        <text x="62" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#ffffff">U7 : ADG918</text>
+        <text x="62" y="44" text-anchor="middle" font-size="10" fill="#d8b4fe">DC-4GHz 宽带开关</text>
+        <text x="62" y="58" text-anchor="middle" font-size="8" fill="#e9d5ff">IL = 0.8dB</text>
+      </g>
+
+      <path d="M 145 82 H 175" stroke="#c084fc" stroke-width="2.5" marker-end="url(#arrClk)"/>
+      <text x="160" y="145" text-anchor="middle" font-size="10" font-weight="600" fill="#d8b4fe">软件程控切换：本地48M TCXO ↔ 外部RF1输入</text>
+      <text x="160" y="162" text-anchor="middle" font-size="9" fill="#a855f7">为多端机提供皮秒级分布式相干锁相时钟基准</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- BOTTOM-RIGHT: SLAVE MCU & MULTI-MACHINE COOPERATION (PCB X ≈ 65.4, Y ≈ 91)-->
+  <!-- ========================================================================= -->
+  <g id="SlaveMcuDomain" transform="translate(630, 690)">
+    <rect x="0" y="0" width="450" height="370" rx="8" fill="url(#mcuSlaveGrad)" stroke="#0d9488" stroke-width="1.5" filter="url(#shadow)"/>
+    <rect x="16" y="-12" width="220" height="24" rx="4" fill="#0d9488"/>
+    <text x="26" y="4" font-size="12" font-weight="700" fill="#ffffff">从机协同控制域 (Slave MCU)</text>
+
+    <!-- U37 GD32E232 -->
+    <g transform="translate(30, 35)">
+      <rect x="0" y="0" width="390" height="175" rx="6" fill="#0f172a" stroke="#2dd4bf" stroke-width="1.5"/>
+      <text x="195" y="30" text-anchor="middle" font-size="16" font-weight="800" fill="#f0fdfa">U37 : GD32E232K8Q7TR</text>
+      <text x="195" y="50" text-anchor="middle" font-size="11" fill="#5eead4">ARM Cortex-M23 32位从控芯片 (QFN-32 | Pos: 65.4, 91.0mm)</text>
+      
+      <!-- Crystal Y2 -->
+      <g transform="translate(255, 75)">
+        <rect x="0" y="0" width="115" height="35" rx="4" fill="#1e293b" stroke="#64748b"/>
+        <text x="57" y="22" text-anchor="middle" font-size="10" font-weight="600" fill="#cbd5e1">Y2: 12MHz 晶振</text>
+      </g>
+
+      <!-- Function Badges -->
+      <g transform="translate(20, 75)">
+        <rect x="0" y="0" width="215" height="28" rx="3" fill="#115e59" stroke="#14b8a6"/>
+        <text x="107" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#ccfbf1">相干增强 6-bit 移相搜索算法引擎</text>
+      </g>
+      <g transform="translate(20, 115)">
+        <rect x="0" y="0" width="215" height="28" rx="3" fill="#115e59" stroke="#14b8a6"/>
+        <text x="107" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#ccfbf1">7-bits 数控衰减器高精度步进驱动</text>
+      </g>
+      <g transform="translate(20, 150)">
+        <text x="195" y="14" text-anchor="middle" font-size="10" fill="#6ee7b7">含 12 个精密阻容元件 (C201~C210) 构成独立去耦系统</text>
+      </g>
+    </g>
+
+    <!-- Transceiver Interface -->
+    <g transform="translate(30, 235)">
+      <rect x="0" y="0" width="390" height="105" rx="5" fill="#132a2f" stroke="#059669"/>
+      <text x="195" y="26" text-anchor="middle" font-size="12" font-weight="700" fill="#6ee7b7">高速组网与通信转发中枢</text>
+      <text x="195" y="50" text-anchor="middle" font-size="10" fill="#a7f3d0">RS485 差分芯片 (MAX485ED) / 以太网透传控制器 / 触发 GPIO</text>
+      <text x="195" y="72" text-anchor="middle" font-size="10" fill="#a7f3d0">实现双端机 / 多端机之间以太网分布式协同 (PushID 协议支持)</text>
+      <text x="195" y="92" text-anchor="middle" font-size="9" fill="#34d399">主机 Master ↔ 从机 Slave 双向指令流实时高速交互</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- MAIN RF FRONTEND CHAIN: PCB X ≈ 42~92mm, Y ≈ 80~127mm                     -->
+  <!-- ========================================================================= -->
+  <g id="RfFrontendChain" transform="translate(630, 210)">
+    <rect x="0" y="0" width="910" height="460" rx="8" fill="#131b2e" stroke="#6366f1" stroke-width="1.8" filter="url(#shadow)"/>
+    <rect x="16" y="-12" width="310" height="24" rx="4" fill="#4f46e5"/>
+    <text x="26" y="4" font-size="12" font-weight="700" fill="#ffffff">射频前端链路 (U_RF_circuit 物理拓扑流)</text>
+
+    <!-- ================= STAGE 1: INPUT SWITCHES ================= -->
+    <g transform="translate(25, 35)">
+      <rect x="0" y="0" width="140" height="165" rx="6" fill="#1e1b4b" stroke="#818cf8" stroke-width="1.2"/>
+      <text x="70" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#e0e7ff">前级选择通路</text>
+
+      <!-- U10 Switch (42.2, 106.5) -->
+      <g transform="translate(15, 38)">
+        <rect x="0" y="0" width="110" height="34" rx="3" fill="#312e81" stroke="#a5b4fc"/>
+        <text x="55" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">U10: MXD8625C</text>
+        <text x="55" y="28" text-anchor="middle" font-size="8" fill="#c7d2fe">IL_SW1 = 0.4dB</text>
+      </g>
+
+      <!-- U11 Switch (42.6, 108.4) -->
+      <g transform="translate(15, 80)">
+        <rect x="0" y="0" width="110" height="34" rx="3" fill="#312e81" stroke="#a5b4fc"/>
+        <text x="55" y="16" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">U11: MXD8625C</text>
+        <text x="55" y="28" text-anchor="middle" font-size="8" fill="#c7d2fe">IL_SW2 = 0.4dB</text>
+      </g>
+
+      <!-- U12 Inverter -->
+      <g transform="translate(15, 122)">
+        <rect x="0" y="0" width="110" height="26" rx="3" fill="#1e293b" stroke="#64748b"/>
+        <text x="55" y="17" text-anchor="middle" font-size="9" fill="#cbd5e1">U12: 74LVC1G14</text>
+      </g>
+    </g>
+
+    <!-- ================= STAGE 2: TRANSMIT POWER AMPLIFIERS ================= -->
+    <g transform="translate(200, 35)">
+      <rect x="0" y="0" width="200" height="165" rx="6" fill="url(#paGrad)" stroke="#c084fc" stroke-width="1.2"/>
+      <text x="100" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#f3e8ff">发射功率放大 (PA Chain)</text>
+
+      <!-- U21: Drive Amp DA (61.6, 104.9) -->
+      <g transform="translate(15, 38)">
+        <rect x="0" y="0" width="170" height="45" rx="4" fill="#3b0764" stroke="#d8b4fe"/>
+        <text x="85" y="19" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">U21 : HGC2005LP4</text>
+        <text x="85" y="33" text-anchor="middle" font-size="9" fill="#e9d5ff">驱动放大器 (G_DA = 21dB)</text>
+      </g>
+
+      <!-- Interstage Filter & Match -->
+      <text x="100" y="98" text-anchor="middle" font-size="9" fill="#a78bfa">级间带通滤波 BPF (IL=3dB)</text>
+
+      <!-- U16: Main PA (87.0, 89.4) -->
+      <g transform="translate(15, 108)">
+        <rect x="0" y="0" width="170" height="45" rx="4" fill="#581c87" stroke="#e9d5ff"/>
+        <text x="85" y="19" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">U16 : HGC2005LP4</text>
+        <text x="85" y="33" text-anchor="middle" font-size="9" fill="#f5d0fe">主功率放大器 (G_PA1dB = 20dB)</text>
+      </g>
+    </g>
+
+    <!-- ================= STAGE 3: HYBRID BRIDGE & COUPLERS ================= -->
+    <g transform="translate(435, 35)">
+      <rect x="0" y="0" width="210" height="260" rx="6" fill="#1e293b" stroke="#38bdf8" stroke-width="1.2"/>
+      <text x="105" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#e0f2fe">正交电桥与双定向耦合器</text>
+
+      <!-- U17: 90° Hybrid Bridge (81.8, 85.7) -->
+      <g transform="translate(15, 38)">
+        <rect x="0" y="0" width="180" height="52" rx="4" fill="#0369a1" stroke="#38bdf8"/>
+        <text x="90" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">U17 : PD0900U03-070</text>
+        <text x="90" y="35" text-anchor="middle" font-size="9" fill="#e0f2fe">3dB 90° 正交电桥 (相干合成核心)</text>
+        <text x="90" y="47" text-anchor="middle" font-size="8" fill="#bae6fd">IL = 0.3dB</text>
+      </g>
+
+      <!-- U9: Forward Coupler (80.5, 118.6) -->
+      <g transform="translate(15, 108)">
+        <rect x="0" y="0" width="180" height="52" rx="4" fill="#075985" stroke="#7dd3fc"/>
+        <text x="90" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">U9 : DC0900P10</text>
+        <text x="90" y="35" text-anchor="middle" font-size="9" fill="#e0f2fe">10dB 发射前向微波定向耦合器</text>
+        <text x="90" y="47" text-anchor="middle" font-size="8" fill="#bae6fd">IL_CPL = 0.7dB | C = 10dB</text>
+      </g>
+
+      <!-- U20: Reverse Coupler (81.0, 81.4) -->
+      <g transform="translate(15, 178)">
+        <rect x="0" y="0" width="180" height="52" rx="4" fill="#0c4a6e" stroke="#bae6fd"/>
+        <text x="90" y="20" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">U20 : DC09T10</text>
+        <text x="90" y="35" text-anchor="middle" font-size="9" fill="#e0f2fe">10dB 接收反射隔离微波耦合器</text>
+        <text x="90" y="47" text-anchor="middle" font-size="8" fill="#bae6fd">IL_CPL = 0.7dB | C = 10dB</text>
+      </g>
+    </g>
+
+    <!-- ================= STAGE 4: POWER DETECTOR & RSSI ================= -->
+    <g transform="translate(435, 320)">
+      <rect x="0" y="0" width="210" height="115" rx="6" fill="#14532d" stroke="#4ade80" stroke-width="1.2"/>
+      <text x="105" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#dcfce7">功率闭环检测电路 (MS2351M)</text>
+
+      <!-- U15: MS2351 (76.9, 80.9) -->
+      <g transform="translate(15, 35)">
+        <rect x="0" y="0" width="180" height="65" rx="4" fill="#166534" stroke="#86efac"/>
+        <text x="90" y="22" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff">U15 : MS2351</text>
+        <text x="90" y="40" text-anchor="middle" font-size="9" fill="#bbf7d0">动态检测范围: -45 dBm ~ 0 dBm</text>
+        <text x="90" y="55" text-anchor="middle" font-size="9" font-weight="600" fill="#4ade80">输出模拟直流电压至 MCU ADC</text>
+      </g>
+    </g>
+
+    <!-- ================= STAGE 5: ANTENNA SWITCHING MATRIX ================= -->
+    <g transform="translate(680, 35)">
+      <rect x="0" y="0" width="200" height="260" rx="6" fill="#1e1b4b" stroke="#a78bfa" stroke-width="1.2"/>
+      <text x="100" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#ede9fe">天线阵列程控切换矩阵</text>
+
+      <!-- U22 Switch (77.2, 109.0) -->
+      <g transform="translate(15, 38)">
+        <rect x="0" y="0" width="170" height="42" rx="4" fill="#4338ca" stroke="#c7d2fe"/>
+        <text x="85" y="19" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">U22 : MXD8625C</text>
+        <text x="85" y="32" text-anchor="middle" font-size="8" fill="#e0e7ff">高隔离大功率开关 (IL=0.4dB)</text>
+      </g>
+
+      <!-- U23 Switch (82.0, 100.8) -->
+      <g transform="translate(15, 95)">
+        <rect x="0" y="0" width="170" height="42" rx="4" fill="#4338ca" stroke="#c7d2fe"/>
+        <text x="85" y="19" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">U23 : MXD8625C</text>
+        <text x="85" y="32" text-anchor="middle" font-size="8" fill="#e0e7ff">高隔离大功率开关 (IL=0.4dB)</text>
+      </g>
+
+      <!-- U13 Switch (86.5, 120.2) -->
+      <g transform="translate(15, 152)">
+        <rect x="0" y="0" width="170" height="42" rx="4" fill="#4338ca" stroke="#c7d2fe"/>
+        <text x="85" y="19" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">U13 : MXD8625C</text>
+        <text x="85" y="32" text-anchor="middle" font-size="8" fill="#e0e7ff">主天线发射/接收支路开关</text>
+      </g>
+
+      <!-- U14 Inverter (87.2, 126.8) -->
+      <g transform="translate(15, 210)">
+        <rect x="0" y="0" width="170" height="26" rx="3" fill="#1e293b" stroke="#64748b"/>
+        <text x="85" y="17" text-anchor="middle" font-size="9" fill="#cbd5e1">U14: 74LVC1G14 互补驱动反相器</text>
+      </g>
+    </g>
+
+    <!-- ================= STAGE 6: DIGITAL ATTENUATOR & LNA MATRIX ================= -->
+    <g transform="translate(25, 220)">
+      <rect x="0" y="0" width="375" height="215" rx="6" fill="#111827" stroke="#4b5563"/>
+      <text x="187" y="24" text-anchor="middle" font-size="11" font-weight="700" fill="#f3f4f6">数控衰减器与低噪放接收增益级 (AGC Chain)</text>
+      
+      <!-- ATT Block -->
+      <g transform="translate(20, 38)">
+        <rect x="0" y="0" width="155" height="50" rx="4" fill="#1f2937" stroke="#9ca3af"/>
+        <text x="77" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">数控衰减网络 (ATT)</text>
+        <text x="77" y="32" text-anchor="middle" font-size="9" fill="#d1d5db">范围: 0 ~ 31.75 dB</text>
+        <text x="77" y="44" text-anchor="middle" font-size="8" fill="#10b981">7-bits 精度 (IL = 1.2dB)</text>
+      </g>
+
+      <!-- LNA Block -->
+      <g transform="translate(200, 38)">
+        <rect x="0" y="0" width="155" height="50" rx="4" fill="#0e7490" stroke="#22d3ee"/>
+        <text x="77" y="18" text-anchor="middle" font-size="10" font-weight="700" fill="#ffffff">接收低噪声放大级 (LNA)</text>
+        <text x="77" y="32" text-anchor="middle" font-size="9" fill="#cffafe">增益 G_LNA = 23 dB</text>
+        <text x="77" y="44" text-anchor="middle" font-size="8" fill="#bae6fd">灵敏度 Psmin = -100 dBm</text>
+      </g>
+
+      <!-- Passive Matching Box -->
+      <g transform="translate(20, 105)">
+        <rect x="0" y="0" width="335" height="95" rx="4" fill="#0f172a" stroke="#374151"/>
+        <text x="167" y="20" text-anchor="middle" font-size="10" font-weight="700" fill="#93c5fd">无源器件精确拓扑 (对应 PCB 163 颗元件)</text>
+        <text x="167" y="40" text-anchor="middle" font-size="9" fill="#94a3b8">• 50Ω 微带特性阻抗匹配 (C102~C122, R46~R49)</text>
+        <text x="167" y="58" text-anchor="middle" font-size="9" fill="#94a3b8">• Butterworth 3阶带通滤波器 (中心频率 920MHz)</text>
+        <text x="167" y="76" text-anchor="middle" font-size="9" fill="#94a3b8">• 隔离定向耦合器端接 50Ω 高频射频负载 (R15~R20)</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- RIGHT ZONE: ANTENNAS (PCB X ≈ 74.6 ~ 92.5mm)                              -->
+  <!-- ========================================================================= -->
+  <g id="RightAntennas" transform="translate(1570, 210)">
+    <rect x="0" y="0" width="170" height="460" rx="8" fill="#111827" stroke="#374151" stroke-width="1.2" filter="url(#shadow)"/>
+    <text x="85" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#e2e8f0">天线辐射端</text>
+    <text x="85" y="46" text-anchor="middle" font-size="10" fill="#64748b">(PCB X ≈ 92.5mm)</text>
+
+    <!-- RF4: Main SMA Antenna (Pos: 92.5, 120.2mm) -->
+    <g transform="translate(15, 80)">
+      <rect x="0" y="0" width="140" height="85" rx="5" fill="#7f1d1d" stroke="#ef4444" stroke-width="2"/>
+      <circle cx="28" cy="42" r="14" fill="#ef4444" fill-opacity="0.25" stroke="#ef4444" stroke-width="2"/>
+      <circle cx="28" cy="42" r="6" fill="#ef4444"/>
+      <text x="85" y="33" text-anchor="middle" font-size="14" font-weight="800" fill="#ffffff">RF4</text>
+      <text x="85" y="52" text-anchor="middle" font-size="12" font-weight="700" fill="#fca5a5">SMA 母头</text>
+      <text x="85" y="70" text-anchor="middle" font-size="10" fill="#fecaca">主天线发射端口 (33dBm/2W)</text>
+    </g>
+
+    <!-- RF5: IPEX Aux Antenna 1 (Pos: 74.6, 104.0mm) -->
+    <g transform="translate(15, 200)">
+      <rect x="0" y="0" width="140" height="65" rx="5" fill="#1e293b" stroke="#f97316" stroke-width="1.5"/>
+      <circle cx="24" cy="32" r="10" fill="#f97316" fill-opacity="0.25" stroke="#f97316" stroke-width="1.5"/>
+      <circle cx="24" cy="32" r="4" fill="#f97316"/>
+      <text x="82" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">RF5</text>
+      <text x="82" y="50" text-anchor="middle" font-size="10" fill="#fdba74">IPEX 辅天线1</text>
+    </g>
+
+    <!-- RF6: IPEX Aux Antenna 2 (Pos: 74.6, 97.6mm) -->
+    <g transform="translate(15, 305)">
+      <rect x="0" y="0" width="140" height="65" rx="5" fill="#1e293b" stroke="#f97316" stroke-width="1.5"/>
+      <circle cx="24" cy="32" r="10" fill="#f97316" fill-opacity="0.25" stroke="#f97316" stroke-width="1.5"/>
+      <circle cx="24" cy="32" r="4" fill="#f97316"/>
+      <text x="82" y="30" text-anchor="middle" font-size="13" font-weight="700" fill="#ffffff">RF6</text>
+      <text x="82" y="50" text-anchor="middle" font-size="10" fill="#fdba74">IPEX 辅天线2</text>
+    </g>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- SIGNAL HIGHWAYS & ROUTING BUSES (Orthogonal AD9361 Clean Style)           -->
+  <!-- ========================================================================= -->
+
+  <!-- 1. TRANSMIT HIGHWAY (Red Lines) -->
+  <g id="TxBus">
+    <!-- U4 FM13 TX -> U3 Balun -->
+    <path d="M 480 500 V 525" stroke="#ef4444" stroke-width="3" marker-end="url(#arrTx)"/>
+    
+    <!-- U3 Balun -> U10/U11 Switch -->
+    <path d="M 550 512 H 610 V 290 H 655" stroke="#ef4444" stroke-width="3.5" fill="none" filter="url(#txGlow)" marker-end="url(#arrTx)"/>
+    <text x="590" y="400" font-size="10" font-weight="700" fill="#f87171">TX 单端</text>
+
+    <!-- U10/U11 Switch -> U21 DA -->
+    <path d="M 765 288 H 845" stroke="#ef4444" stroke-width="3.5" fill="none" filter="url(#txGlow)" marker-end="url(#arrTx)"/>
+
+    <!-- U21 DA -> U16 PA -->
+    <path d="M 930 293 V 353" stroke="#ef4444" stroke-width="3.5" fill="none" filter="url(#txGlow)" marker-end="url(#arrTx)"/>
+
+    <!-- U16 PA -> U17 90° Hybrid Bridge -->
+    <path d="M 1015 375 H 1080 V 300 H 1080" stroke="#ef4444" stroke-width="4" fill="none" filter="url(#txGlow)" marker-end="url(#arrTx)"/>
+    <text x="1040" y="360" font-size="10" font-weight="700" fill="#f87171">34.6dBm</text>
+
+    <!-- U17 Bridge -> U9 Coupler -->
+    <path d="M 1155 315 V 348" stroke="#ef4444" stroke-width="4" fill="none" filter="url(#txGlow)" marker-end="url(#arrTx)"/>
+
+    <!-- U9 Coupler -> U13 / U22 Antenna Switches -->
+    <path d="M 1245 370 H 1325" stroke="#ef4444" stroke-width="4" fill="none" filter="url(#txGlow)" marker-end="url(#arrTx)"/>
+
+    <!-- U13 Switch -> RF4 SMA Main Antenna -->
+    <path d="M 1480 395 H 1585" stroke="#ef4444" stroke-width="4.5" fill="none" filter="url(#txGlow)" marker-end="url(#arrTx)"/>
+    <text x="1530" y="385" font-size="11" font-weight="800" fill="#fca5a5">33.0dBm (2W)</text>
+
+    <!-- U22/U23 Switches -> RF5/RF6 Aux IPEX -->
+    <path d="M 1480 328 H 1530 V 440 H 1585" stroke="#ef4444" stroke-width="2.5" fill="none" marker-end="url(#arrTx)"/>
+    <path d="M 1530 440 V 545 H 1585" stroke="#ef4444" stroke-width="2.5" fill="none" marker-end="url(#arrTx)"/>
+  </g>
+
+  <!-- 2. RECEIVE HIGHWAY (Cyan Lines) -->
+  <g id="RxBus">
+    <!-- Antenna Switch -> U20 Reverse Coupler -->
+    <path d="M 1325 435 H 1245" stroke="#06b6d4" stroke-width="3" fill="none" filter="url(#rxGlow)" marker-end="url(#arrRx)"/>
+
+    <!-- U20 Coupler Coupled Port -> U15 Power Detector -->
+    <path d="M 1155 440 V 565" stroke="#06b6d4" stroke-width="2.2" fill="none" marker-end="url(#arrRx)"/>
+    <text x="1165" y="500" font-size="10" font-weight="700" fill="#38bdf8">检波耦合取样 (C=10dB)</text>
+
+    <!-- U20 Coupler Through Port -> ATT & LNA Stage -->
+    <path d="M 1065 425 H 1010" stroke="#06b6d4" stroke-width="3" fill="none" filter="url(#rxGlow)" marker-end="url(#arrRx)"/>
+
+    <!-- ATT & LNA Stage -> Back to U5 Balun -->
+    <path d="M 655 490 H 610 V 490 H 320" stroke="#06b6d4" stroke-width="3.5" fill="none" filter="url(#rxGlow)" marker-end="url(#arrRx)"/>
+    <text x="470" y="480" font-size="10" font-weight="700" fill="#67e8f9">RX 链路 (-100dBm 灵敏度)</text>
+
+    <!-- U5 Balun -> U4 FM13 RX Differential Inputs -->
+    <path d="M 270 480 V 430" stroke="#06b6d4" stroke-width="2.5" marker-end="url(#arrRx)"/>
+
+    <!-- RF3 Direct RX Input -> U10/U11 Switch -->
+    <path d="M 150 320 H 655" stroke="#06b6d4" stroke-width="2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrRx)"/>
+  </g>
+
+  <!-- 3. CLOCK & LO HIGHWAYS (Purple Lines) -->
+  <g id="ClockBus">
+    <!-- RF1 (Ext Clock) -> U7 ADG918 Switch -->
+    <path d="M 150 700 H 410 V 735" stroke="#c084fc" stroke-width="2.5" fill="none" marker-end="url(#arrClk)"/>
+
+    <!-- U7 Switch Output -> U4 FM13 CLKIN -->
+    <path d="M 445 850 V 590" stroke="#c084fc" stroke-width="3" fill="none" marker-end="url(#arrClk)"/>
+    <text x="455" y="615" font-size="10" font-weight="700" fill="#e9d5ff">48MHz 锁相基准</text>
+
+    <!-- RF2 (Ext LO / Leakage Calibration) -> U2 LO Balun -->
+    <path d="M 150 440 H 350 V 480" stroke="#c084fc" stroke-width="2" stroke-dasharray="4,3" fill="none" marker-end="url(#arrClk)"/>
+  </g>
+
+  <!-- 4. DIGITAL CONTROL BUS (Green Lines) -->
+  <g id="ControlBus">
+    <!-- Master MCU U1 -> U4 FM13 QSPI High-Speed Protocol Bus -->
+    <path d="M 370 650 V 590" stroke="#10b981" stroke-width="4" stroke-dasharray="6,2" fill="none" marker-end="url(#arrCtrl)"/>
+    <text x="385" y="615" font-size="11" font-weight="800" fill="#34d399">QSPI 硬件总线</text>
+
+    <!-- Master MCU U1 -> Slave MCU U37 Dual-Machine Bus -->
+    <path d="M 590 760 H 660" stroke="#10b981" stroke-width="3.5" fill="none" marker-end="url(#arrCtrl)"/>
+    <text x="625" y="750" text-anchor="middle" font-size="11" font-weight="700" fill="#34d399">SPI / UART 协同总线</text>
+
+    <!-- Slave MCU U37 -> 7-bit ATT & Switches Control -->
+    <path d="M 750 690 V 650 H 750" stroke="#10b981" stroke-width="2.5" stroke-dasharray="4,3" fill="none" marker-end="url(#arrCtrl)"/>
+    <text x="760" y="665" font-size="10" font-weight="700" fill="#6ee7b7">7-bits 衰减与移相控制</text>
+
+    <!-- Detector U15 Analog Output -> Master MCU U1 ADC Feedback -->
+    <path d="M 1070 705 H 590" stroke="#10b981" stroke-width="2.2" stroke-dasharray="5,3" fill="none" marker-end="url(#arrCtrl)"/>
+    <text x="860" y="695" text-anchor="middle" font-size="10" font-weight="700" fill="#6ee7b7">MS2351M 检波模拟电压 → Master MCU ADC (功率闭环反馈)</text>
+  </g>
+
+  <!-- ========================================================================= -->
+  <!-- FOOTER: SUMMARY STATUS AND SPECIFICATIONS                                 -->
+  <!-- ========================================================================= -->
+  <g transform="translate(40, 1070)">
+    <text x="0" y="0" font-size="11" fill="#64748b">PCB 原型源: UHF_Reader_MultiFunction_V5.PcbDoc (实际长宽: 66.1mm × 56.5mm) | Altium Designer &amp; 嘉立创EDA 专业版原生映射</text>
+    <text x="1700" y="0" text-anchor="end" font-size="11" fill="#64748b">物料匹配状态: 381 颗元器件 (326 阻容感 + 55 核心IC与接口) 全部完成立创商城编号 (LCSC Part #) 回写绑定</text>
+  </g>
+</svg>

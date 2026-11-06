@@ -1,0 +1,3431 @@
+{
+  "RF6": {
+    "supplier": "LCSC",
+    "supplierId": "C2934254",
+    "manufacturer": "星坤(XKB)",
+    "manufacturerId": "BWIPX-1-001E",
+    "description": "一代 IPEX/U.FL 贴片射频插座 2x2mm",
+    "value": "BWIPX-1-001E",
+    "package": "IPEX-SMD_BWIPX-1-001E"
+  },
+  "RF5": {
+    "supplier": "LCSC",
+    "supplierId": "C2934254",
+    "manufacturer": "星坤(XKB)",
+    "manufacturerId": "BWIPX-1-001E",
+    "description": "一代 IPEX/U.FL 贴片射频插座 2x2mm",
+    "value": "BWIPX-1-001E",
+    "package": "IPEX-SMD_BWIPX-1-001E"
+  },
+  "R49": {
+    "supplier": "LCSC",
+    "supplierId": "C17168",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF0000TCE",
+    "description": "0402 0Ω ±1% 贴片电阻",
+    "value": "0",
+    "package": "0402_Z"
+  },
+  "R48": {
+    "supplier": "LCSC",
+    "supplierId": "C17168",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF0000TCE",
+    "description": "0402 0Ω ±1% 贴片电阻",
+    "value": "0",
+    "package": "0402_Z"
+  },
+  "R46": {
+    "supplier": "LCSC",
+    "supplierId": "C17168",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF0000TCE",
+    "description": "0402 0Ω ±1% 贴片电阻",
+    "value": "0",
+    "package": "0402_Z"
+  },
+  "U36": {
+    "supplier": "LCSC",
+    "supplierId": "C312520",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-2.8YN5G/TR",
+    "description": "300mA 超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-2.8V",
+    "package": "SOT-23-5"
+  },
+  "C215": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C214": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "U7": {
+    "supplier": "LCSC",
+    "supplierId": "C128537",
+    "manufacturer": "ADI/国产宽带替代",
+    "manufacturerId": "ADG918BRM",
+    "description": "宽带DC-4GHz 50Ω SPDT射频开关 MSOP-8",
+    "value": "ADG918",
+    "package": "ADG918"
+  },
+  "C83": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1uF",
+    "package": "0402_Z"
+  },
+  "R15": {
+    "supplier": "LCSC",
+    "supplierId": "C25118",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF499JTCE",
+    "description": "0402 49.9Ω ±1% 贴片电阻",
+    "value": "50",
+    "package": "0402_Z"
+  },
+  "R20": {
+    "supplier": "LCSC",
+    "supplierId": "C25078",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1000TCE",
+    "description": "0402 100Ω ±1% 贴片电阻",
+    "value": "100",
+    "package": "0402_Z"
+  },
+  "R19": {
+    "supplier": "LCSC",
+    "supplierId": "C25078",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1000TCE",
+    "description": "0402 100Ω ±1% 贴片电阻",
+    "value": "100",
+    "package": "0402_Z"
+  },
+  "R16": {
+    "supplier": "LCSC",
+    "supplierId": "C17168",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF0000TCE",
+    "description": "0402 0Ω ±1% 贴片电阻",
+    "value": "0",
+    "package": "0402_Z"
+  },
+  "C85": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C84": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1uF",
+    "package": "0402_Z"
+  },
+  "C82": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1uF",
+    "package": "0402_Z"
+  },
+  "C81": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C80": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "U12": {
+    "supplier": "LCSC",
+    "supplierId": "C386629",
+    "manufacturer": "无锡中微爱芯(I-CORE)",
+    "manufacturerId": "AiP74LVC1G14GC.TR",
+    "description": "单路反相施密特触发器 SOT-353",
+    "value": "AiP74LVC1G14GC.TR",
+    "package": "SOT-353 L2.1-W1.3-P0.65"
+  },
+  "U11": {
+    "supplier": "LCSC",
+    "supplierId": "C2838505",
+    "manufacturer": "卓胜微(Maxscend)",
+    "manufacturerId": "MXD8625C",
+    "description": "高隔离度大功率 SPDT 射频开关 DFN-6",
+    "value": "MXD8625C",
+    "package": "MXD8625C"
+  },
+  "U10": {
+    "supplier": "LCSC",
+    "supplierId": "C2838505",
+    "manufacturer": "卓胜微(Maxscend)",
+    "manufacturerId": "MXD8625C",
+    "description": "高隔离度大功率 SPDT 射频开关 DFN-6",
+    "value": "MXD8625C",
+    "package": "MXD8625C"
+  },
+  "C122": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C119": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C118": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C103": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C102": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "U6": {
+    "supplier": "LCSC",
+    "supplierId": "C99999",
+    "manufacturer": "国产优质供应",
+    "manufacturerId": "48MHzÎÂ²¹¾§Õñ",
+    "description": "48MHÎÂ²¹¾§Õñ 48MHzÎÂ²¹¾§Õñ",
+    "value": "48MHzÎÂ²¹¾§Õñ",
+    "package": "48MHÎÂ²¹¾§Õñ"
+  },
+  "RF2": {
+    "supplier": "LCSC",
+    "supplierId": "C2934254",
+    "manufacturer": "星坤(XKB)",
+    "manufacturerId": "BWIPX-1-001E",
+    "description": "一代 IPEX/U.FL 贴片射频插座 2x2mm",
+    "value": "BWIPX-1-001E",
+    "package": "IPEX-SMD_BWIPX-1-001E"
+  },
+  "RF3": {
+    "supplier": "LCSC",
+    "supplierId": "C2934254",
+    "manufacturer": "星坤(XKB)",
+    "manufacturerId": "BWIPX-1-001E",
+    "description": "一代 IPEX/U.FL 贴片射频插座 2x2mm",
+    "value": "BWIPX-1-001E",
+    "package": "IPEX-SMD_BWIPX-1-001E"
+  },
+  "RF1": {
+    "supplier": "LCSC",
+    "supplierId": "C2934254",
+    "manufacturer": "星坤(XKB)",
+    "manufacturerId": "BWIPX-1-001E",
+    "description": "一代 IPEX/U.FL 贴片射频插座 2x2mm",
+    "value": "BWIPX-1-001E",
+    "package": "IPEX-SMD_BWIPX-1-001E"
+  },
+  "R24": {
+    "supplier": "LCSC",
+    "supplierId": "C25087",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1001TCE",
+    "description": "0402 1kΩ ±1% 贴片电阻",
+    "value": "1k",
+    "package": "0402_Z"
+  },
+  "R23": {
+    "supplier": "LCSC",
+    "supplierId": "C25890",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF2201TCE",
+    "description": "0402 2.2kΩ ±1% 贴片电阻",
+    "value": "2k",
+    "package": "0402_Z"
+  },
+  "R22": {
+    "supplier": "LCSC",
+    "supplierId": "C25087",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1001TCE",
+    "description": "0402 1kΩ ±1% 贴片电阻",
+    "value": "1k",
+    "package": "0402_Z"
+  },
+  "R21": {
+    "supplier": "LCSC",
+    "supplierId": "C25890",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF2201TCE",
+    "description": "0402 2.2kΩ ±1% 贴片电阻",
+    "value": "2k",
+    "package": "0402_Z"
+  },
+  "R14": {
+    "supplier": "LCSC",
+    "supplierId": "C25744",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1002TCE",
+    "description": "0402 10kΩ ±1% 贴片电阻",
+    "value": "10K",
+    "package": "0402_Z"
+  },
+  "R18": {
+    "supplier": "LCSC",
+    "supplierId": "C25078",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1000TCE",
+    "description": "0402 100Ω ±1% 贴片电阻",
+    "value": "100",
+    "package": "0402_Z"
+  },
+  "R17": {
+    "supplier": "LCSC",
+    "supplierId": "C17168",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF0000TCE",
+    "description": "0402 0Ω ±1% 贴片电阻",
+    "value": "0",
+    "package": "0402_Z"
+  },
+  "L34": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "C121": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C120": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C86": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C116": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C74": {
+    "supplier": "LCSC",
+    "supplierId": "C1551",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN100",
+    "description": "0402 10pF ±5% 50V C0G",
+    "value": "10pF",
+    "package": "0402_Z"
+  },
+  "C79": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1uF",
+    "package": "0402_Z"
+  },
+  "C78": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C69": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C68": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C67": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C66": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "U27": {
+    "supplier": "LCSC",
+    "supplierId": "C312522",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-5.0YN5G/TR",
+    "description": "300mA 超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-5V",
+    "package": "SOT-23-5"
+  },
+  "C197": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C196": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "u8": {
+    "supplier": "LCSC",
+    "supplierId": "C2901240",
+    "manufacturer": "国产射频",
+    "manufacturerId": "FW1103",
+    "description": "多功能射频数字衰减/移相器 QFN-16",
+    "value": "FW1103",
+    "package": "FW1103W"
+  },
+  "R30": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF292RTCE",
+    "description": "0402 292R ±1% 贴片电阻",
+    "value": "292R",
+    "package": "0402_Z"
+  },
+  "R31": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF292RTCE",
+    "description": "0402 292R ±1% 贴片电阻",
+    "value": "292R",
+    "package": "0402_Z"
+  },
+  "R29": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF17RTCE",
+    "description": "0402 17R ±1% 贴片电阻",
+    "value": "17R",
+    "package": "0402_Z"
+  },
+  "R26": {
+    "supplier": "LCSC",
+    "supplierId": "C25118",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF499JTCE",
+    "description": "0402 49.9Ω ±1% 贴片电阻",
+    "value": "50",
+    "package": "0402_Z"
+  },
+  "R25": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF6.5kTCE",
+    "description": "0402 6.5k ±1% 贴片电阻",
+    "value": "6.5k",
+    "package": "0402_Z"
+  },
+  "P3": {
+    "supplier": "LCSC",
+    "supplierId": "C99999",
+    "manufacturer": "国产优质供应",
+    "manufacturerId": "SF9078",
+    "description": "SF8009 SF9078",
+    "value": "SF9078",
+    "package": "SF8009"
+  },
+  "L37": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C47nHSTF",
+    "description": "0402 47nH 高频叠层贴片电感",
+    "value": "47nH",
+    "package": "0402_Z"
+  },
+  "L36": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C18nHSTF",
+    "description": "0402 18nH 高频叠层贴片电感",
+    "value": "18nH",
+    "package": "0402_Z"
+  },
+  "C105": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C104": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C93": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C91": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C90": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C89": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C88": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C87": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "U14": {
+    "supplier": "LCSC",
+    "supplierId": "C386629",
+    "manufacturer": "无锡中微爱芯(I-CORE)",
+    "manufacturerId": "AiP74LVC1G14GC.TR",
+    "description": "单路反相施密特触发器 SOT-353",
+    "value": "AiP74LVC1G14GC.TR",
+    "package": "SOT-353_L2.1-W1.3-P0.65"
+  },
+  "R34": {
+    "supplier": "LCSC",
+    "supplierId": "C25087",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1001TCE",
+    "description": "0402 1kΩ ±1% 贴片电阻",
+    "value": "1k",
+    "package": "0402_Z"
+  },
+  "R32": {
+    "supplier": "LCSC",
+    "supplierId": "C25890",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF2201TCE",
+    "description": "0402 2.2kΩ ±1% 贴片电阻",
+    "value": "2k",
+    "package": "0402_Z"
+  },
+  "C131": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "R52": {
+    "supplier": "LCSC",
+    "supplierId": "C25744",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1002TCE",
+    "description": "0402 10kΩ ±1% 贴片电阻",
+    "value": "10k",
+    "package": "0402_Z"
+  },
+  "D1": {
+    "supplier": "LCSC",
+    "supplierId": "C99999",
+    "manufacturer": "国产优质供应",
+    "manufacturerId": "LED0",
+    "description": "0603_Z LED0",
+    "value": "LED0",
+    "package": "0603_Z"
+  },
+  "R55": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "C126": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C125": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "L23": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C390uHSTF",
+    "description": "0402 390uH 高频叠层贴片电感",
+    "value": "390uH",
+    "package": "1210_Z"
+  },
+  "L22": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C270uHSTF",
+    "description": "0402 270uH 高频叠层贴片电感",
+    "value": "270uH",
+    "package": "1210_Z"
+  },
+  "L20": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CNCSTF",
+    "description": "0402 NC 高频叠层贴片电感",
+    "value": "NC",
+    "package": "1210_Z"
+  },
+  "L19": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CNCSTF",
+    "description": "0402 NC 高频叠层贴片电感",
+    "value": "NC",
+    "package": "1210_Z"
+  },
+  "L18": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C390uHSTF",
+    "description": "0402 390uH 高频叠层贴片电感",
+    "value": "390uH",
+    "package": "1210_Z"
+  },
+  "L17": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C270uHSTF",
+    "description": "0402 270uH 高频叠层贴片电感",
+    "value": "270uH",
+    "package": "1210_Z"
+  },
+  "L15": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C390uHSTF",
+    "description": "0402 390uH 高频叠层贴片电感",
+    "value": "390uH",
+    "package": "1210_Z"
+  },
+  "L14": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C270uHSTF",
+    "description": "0402 270uH 高频叠层贴片电感",
+    "value": "270uH",
+    "package": "1210_Z"
+  },
+  "L12": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CNCSTF",
+    "description": "0402 NC 高频叠层贴片电感",
+    "value": "NC",
+    "package": "1210_Z"
+  },
+  "L9": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CNCSTF",
+    "description": "0402 NC 高频叠层贴片电感",
+    "value": "NC",
+    "package": "1210_Z"
+  },
+  "L8": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C390uHSTF",
+    "description": "0402 390uH 高频叠层贴片电感",
+    "value": "390uH",
+    "package": "1210_Z"
+  },
+  "L7": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C270uHSTF",
+    "description": "0402 270uH 高频叠层贴片电感",
+    "value": "270uH",
+    "package": "1210_Z"
+  },
+  "C48": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402_0R",
+    "description": "0402 0R 贴片电容",
+    "value": "0R",
+    "package": "0402_Z"
+  },
+  "C47": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C44": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C42": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C41": {
+    "supplier": "LCSC",
+    "supplierId": "C1544",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN5R0",
+    "description": "0402 5pF ±0.25pF 50V C0G",
+    "value": "75pF",
+    "package": "0402_Z"
+  },
+  "C40": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C38": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402_0R",
+    "description": "0402 0R 贴片电容",
+    "value": "0R",
+    "package": "0402_Z"
+  },
+  "C37": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C36": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C30": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402_0R",
+    "description": "0402 0R 贴片电容",
+    "value": "0R",
+    "package": "0402_Z"
+  },
+  "C29": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C28": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C27": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C24": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C23": {
+    "supplier": "LCSC",
+    "supplierId": "C1544",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN5R0",
+    "description": "0402 5pF ±0.25pF 50V C0G",
+    "value": "75pF",
+    "package": "0402_Z"
+  },
+  "C20": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402_0R",
+    "description": "0402 0R 贴片电容",
+    "value": "0R",
+    "package": "0402_Z"
+  },
+  "C19": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C18": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C113": {
+    "supplier": "LCSC",
+    "supplierId": "C1544",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN5R0",
+    "description": "0402 5pF ±0.25pF 50V C0G",
+    "value": "5pF",
+    "package": "0402_Z"
+  },
+  "U17": {
+    "supplier": "LCSC",
+    "supplierId": "C2842421",
+    "manufacturer": "国产微波",
+    "manufacturerId": "PD0900U03-070",
+    "description": "800-1000MHz 3dB 90度正交电桥/功分器",
+    "value": "PD0900U03-070",
+    "package": "PD0900U03-070"
+  },
+  "U15": {
+    "supplier": "LCSC",
+    "supplierId": "C2842417",
+    "manufacturer": "杭州瑞盟(Ruimeng)",
+    "manufacturerId": "MS2351",
+    "description": "超高频低噪放大射频前端IC QFN-16",
+    "value": "MS2351",
+    "package": "MS2351"
+  },
+  "Y2": {
+    "supplier": "LCSC",
+    "supplierId": "C38807",
+    "manufacturer": "扬兴晶振(YXC)",
+    "manufacturerId": "X3225XTAL 3225",
+    "description": "贴片无源晶振 3225 XTAL 3225",
+    "value": "XTAL 3225",
+    "package": "XTAL_2520"
+  },
+  "U37": {
+    "supplier": "LCSC",
+    "supplierId": "C2838501",
+    "manufacturer": "兆易创新(GigaDevice)",
+    "manufacturerId": "GD32E232K8Q7TR",
+    "description": "ARM Cortex-M23 32位MCU QFN-32",
+    "value": "GD32E232K8Q7TR",
+    "package": "QFN-32_L4.0-W4.0-P0.40-TL-EP2.8"
+  },
+  "R57": {
+    "supplier": "LCSC",
+    "supplierId": "C25744",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1002TCE",
+    "description": "0402 10kΩ ±1% 贴片电阻",
+    "value": "10K",
+    "package": "0402_Z"
+  },
+  "R56": {
+    "supplier": "LCSC",
+    "supplierId": "C25091",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF4701TCE",
+    "description": "0402 4.7kΩ ±1% 贴片电阻",
+    "value": "4.7K",
+    "package": "0402_Z"
+  },
+  "R2": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "R1": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "R50": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF110kTCE",
+    "description": "0402 110k ±1% 贴片电阻",
+    "value": "110k",
+    "package": "0603_Z"
+  },
+  "P1": {
+    "supplier": "LCSC",
+    "supplierId": "C99999",
+    "manufacturer": "国产优质供应",
+    "manufacturerId": "Header20",
+    "description": "Header20 Header20",
+    "value": "Header20",
+    "package": "Header20"
+  },
+  "L48": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L46": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C4.7 uHSTF",
+    "description": "0402 4.7 uH 高频叠层贴片电感",
+    "value": "4.7 uH",
+    "package": "INDC 4040X25N"
+  },
+  "C218": {
+    "supplier": "LCSC",
+    "supplierId": "C1533",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB103",
+    "description": "0402 10nF ±10% 50V X7R",
+    "value": "10 nF",
+    "package": "0402_Z"
+  },
+  "C219": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100 nF",
+    "package": "0402_Z"
+  },
+  "C221": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100 nF",
+    "package": "0402_Z"
+  },
+  "C220": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R4.7 uF",
+    "description": "0402 4.7 uF ±10% 贴片电容",
+    "value": "4.7 uF",
+    "package": "0603_Z"
+  },
+  "C217": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN20pF  NP0",
+    "description": "0402 20pF  NP0 ±5% 50V C0G",
+    "value": "20pF  NP0",
+    "package": "0402_Z"
+  },
+  "C216": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN20pF  NP0",
+    "description": "0402 20pF  NP0 ±5% 50V C0G",
+    "value": "20pF  NP0",
+    "package": "0402_Z"
+  },
+  "R27": {
+    "supplier": "LCSC",
+    "supplierId": "C17168",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF0000TCE",
+    "description": "0402 0Ω ±1% 贴片电阻",
+    "value": "0",
+    "package": "0805"
+  },
+  "U35": {
+    "supplier": "LCSC",
+    "supplierId": "C312519",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-1.8YN5G/TR",
+    "description": "300mA 超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-1.8V",
+    "package": "SOT-23-5"
+  },
+  "C189": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R4.7uF",
+    "description": "0402 4.7uF ±10% 贴片电容",
+    "value": "4.7uF",
+    "package": "0805_Z"
+  },
+  "U25": {
+    "supplier": "LCSC",
+    "supplierId": "C2842416",
+    "manufacturer": "矽力杰(Silergy)",
+    "manufacturerId": "SY8121BABC",
+    "description": "18V 2A 高效同步降压转换器 SOT-23-6",
+    "value": "SY8121BABC",
+    "package": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-TL"
+  },
+  "C180": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "RF4": {
+    "supplier": "LCSC",
+    "supplierId": "C492348",
+    "manufacturer": "灿科盟(CKMTW)",
+    "manufacturerId": "SMA-KWE",
+    "description": "RF同轴连接器 SMA母头微带贴片座",
+    "value": "SMA",
+    "package": "SMAmini - duplicate"
+  },
+  "C124": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "R35": {
+    "supplier": "LCSC",
+    "supplierId": "C25087",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1001TCE",
+    "description": "0402 1kΩ ±1% 贴片电阻",
+    "value": "1k",
+    "package": "0402_Z"
+  },
+  "R33": {
+    "supplier": "LCSC",
+    "supplierId": "C25890",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF2201TCE",
+    "description": "0402 2.2kΩ ±1% 贴片电阻",
+    "value": "2k",
+    "package": "0402_Z"
+  },
+  "U13": {
+    "supplier": "LCSC",
+    "supplierId": "C2838505",
+    "manufacturer": "卓胜微(Maxscend)",
+    "manufacturerId": "MXD8625C",
+    "description": "高隔离度大功率 SPDT 射频开关 DFN-6",
+    "value": "MXD8625C",
+    "package": "BGA-6_L1.1-W0.7-R3-C2-P0.40-BR"
+  },
+  "C128": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C127": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C123": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C155": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C117": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C160": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C151": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C190": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0805_Z"
+  },
+  "L38": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C4.9nHSTF",
+    "description": "0402 4.9nH 高频叠层贴片电感",
+    "value": "4.9nH",
+    "package": "0603_Z"
+  },
+  "L39": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C2.7nHSTF",
+    "description": "0402 2.7nH 高频叠层贴片电感",
+    "value": "2.7nH",
+    "package": "0603_Z"
+  },
+  "C110": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C109": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0603_Z"
+  },
+  "C100": {
+    "supplier": "LCSC",
+    "supplierId": "C1551",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN100",
+    "description": "0402 10pF ±5% 50V C0G",
+    "value": "8.2pF",
+    "package": "0402_Z"
+  },
+  "C108": {
+    "supplier": "LCSC",
+    "supplierId": "C1548",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN470",
+    "description": "0402 47pF ±5% 50V C0G",
+    "value": "47pF",
+    "package": "0603_Z"
+  },
+  "C115": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C112": {
+    "supplier": "LCSC",
+    "supplierId": "C1540",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN1R0",
+    "description": "0402 1pF ±0.25pF 50V C0G",
+    "value": "0.9pF",
+    "package": "0402_Z"
+  },
+  "Y1": {
+    "supplier": "LCSC",
+    "supplierId": "C38807",
+    "manufacturer": "扬兴晶振(YXC)",
+    "manufacturerId": "X3225XTAL 3225",
+    "description": "贴片无源晶振 3225 XTAL 3225",
+    "value": "XTAL 3225",
+    "package": "XTAL_2520"
+  },
+  "U34": {
+    "supplier": "LCSC",
+    "supplierId": "C312520",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-2.8YN5G/TR",
+    "description": "300mA 超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-2.8V",
+    "package": "SOT-23-5"
+  },
+  "U33": {
+    "supplier": "LCSC",
+    "supplierId": "C312523",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-ADJYN5G/TR",
+    "description": "300mA 可调超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-ADJ",
+    "package": "SOT-23-5"
+  },
+  "U32": {
+    "supplier": "LCSC",
+    "supplierId": "C312521",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-3.3YN5G/TR",
+    "description": "300mA 超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-3.3V",
+    "package": "SOT-23-5"
+  },
+  "U31": {
+    "supplier": "LCSC",
+    "supplierId": "C312522",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-5.0YN5G/TR",
+    "description": "300mA 超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-5V",
+    "package": "SOT-23-5"
+  },
+  "U30": {
+    "supplier": "LCSC",
+    "supplierId": "C312521",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-3.3YN5G/TR",
+    "description": "300mA 超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-3.3V",
+    "package": "SOT-23-5"
+  },
+  "U29": {
+    "supplier": "LCSC",
+    "supplierId": "C312521",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-3.3YN5G/TR",
+    "description": "300mA 超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-3.3V",
+    "package": "SOT-23-5"
+  },
+  "U28": {
+    "supplier": "LCSC",
+    "supplierId": "C2842416",
+    "manufacturer": "矽力杰(Silergy)",
+    "manufacturerId": "SY8121BABC",
+    "description": "18V 2A 高效同步降压转换器 SOT-23-6",
+    "value": "SY8121BABC",
+    "package": "SOT-23-6_L2.9-W1.6-P0.95-LS2.8-TL"
+  },
+  "U26": {
+    "supplier": "LCSC",
+    "supplierId": "C312522",
+    "manufacturer": "圣邦微(SGMICRO)",
+    "manufacturerId": "SGM2036-5.0YN5G/TR",
+    "description": "300mA 超低噪声高PSRR LDO SOT-23-5",
+    "value": "SGM2036-5V",
+    "package": "SOT-23-5"
+  },
+  "U22": {
+    "supplier": "LCSC",
+    "supplierId": "C2838505",
+    "manufacturer": "卓胜微(Maxscend)",
+    "manufacturerId": "MXD8625C",
+    "description": "高隔离度大功率 SPDT 射频开关 DFN-6",
+    "value": "MXD8625C",
+    "package": "BGA-6_L1.1-W0.7-R3-C2-P0.40-BR"
+  },
+  "u24": {
+    "supplier": "LCSC",
+    "supplierId": "C2901240",
+    "manufacturer": "国产射频",
+    "manufacturerId": "FW1103",
+    "description": "多功能射频数字衰减/移相器 QFN-16",
+    "value": "FW1103",
+    "package": "FW1103W"
+  },
+  "U21": {
+    "supplier": "LCSC",
+    "supplierId": "C2842418",
+    "manufacturer": "海矽半导体(HGC)",
+    "manufacturerId": "HGC2005LP4",
+    "description": "超高频射频高增益驱动功放 QFN-24",
+    "value": "HGC2005LP4",
+    "package": "HGC2005LP4"
+  },
+  "U23": {
+    "supplier": "LCSC",
+    "supplierId": "C2838505",
+    "manufacturer": "卓胜微(Maxscend)",
+    "manufacturerId": "MXD8625C",
+    "description": "高隔离度大功率 SPDT 射频开关 DFN-6",
+    "value": "MXD8625C",
+    "package": "BGA-6_L1.1-W0.7-R3-C2-P0.40-BR"
+  },
+  "U20": {
+    "supplier": "LCSC",
+    "supplierId": "C2842420",
+    "manufacturer": "国产微波",
+    "manufacturerId": "DC09T10",
+    "description": "UHF频段贴片高隔离定向耦合器 SMD",
+    "value": "DC09T10",
+    "package": "DC09T10"
+  },
+  "u19": {
+    "supplier": "LCSC",
+    "supplierId": "C2901240",
+    "manufacturer": "国产射频",
+    "manufacturerId": "FW1103",
+    "description": "多功能射频数字衰减/移相器 QFN-16",
+    "value": "FW1103",
+    "package": "FW1103W"
+  },
+  "u18": {
+    "supplier": "LCSC",
+    "supplierId": "C2901240",
+    "manufacturer": "国产射频",
+    "manufacturerId": "FW1103",
+    "description": "多功能射频数字衰减/移相器 QFN-16",
+    "value": "FW1103",
+    "package": "FW1103W"
+  },
+  "U16": {
+    "supplier": "LCSC",
+    "supplierId": "C2842418",
+    "manufacturer": "海矽半导体(HGC)",
+    "manufacturerId": "HGC2005LP4",
+    "description": "超高频射频高增益驱动功放 QFN-24",
+    "value": "HGC2005LP4",
+    "package": "HGC2005LP4"
+  },
+  "U9": {
+    "supplier": "LCSC",
+    "supplierId": "C2842419",
+    "manufacturer": "Anaren/国产微波",
+    "manufacturerId": "XC0900P-10S",
+    "description": "800-1000MHz 10dB微波定向耦合器 SMD",
+    "value": "DC0900P10",
+    "package": "DC0900P10"
+  },
+  "U5": {
+    "supplier": "LCSC",
+    "supplierId": "C103501",
+    "manufacturer": "顺络(Sunlord)",
+    "manufacturerId": "SLBL18-1R500G",
+    "description": "射频叠层巴伦/平衡-不平衡转换器 0603",
+    "value": "SLBL18-1R500G  -05-31T",
+    "package": "Balun-0900BL15C050"
+  },
+  "U4": {
+    "supplier": "LCSC",
+    "supplierId": "C2842415",
+    "manufacturer": "复旦微(FMSH)",
+    "manufacturerId": "FM13RD1616",
+    "description": "UHF RFID 读写器单芯片SOC QFN-64",
+    "value": "FM13RD1616",
+    "package": "FM13RD1616E"
+  },
+  "U3": {
+    "supplier": "LCSC",
+    "supplierId": "C103501",
+    "manufacturer": "顺络(Sunlord)",
+    "manufacturerId": "SLBL18-1R500G",
+    "description": "射频叠层巴伦/平衡-不平衡转换器 0603",
+    "value": "SLBL18-1R500G  -05-31T",
+    "package": "Balun-0900BL15C050"
+  },
+  "U2": {
+    "supplier": "LCSC",
+    "supplierId": "C103501",
+    "manufacturer": "顺络(Sunlord)",
+    "manufacturerId": "SLBL18-1R500G",
+    "description": "射频叠层巴伦/平衡-不平衡转换器 0603",
+    "value": "SLBL18-1R500G  -05-31T",
+    "package": "Balun-0900BL15C050"
+  },
+  "U1": {
+    "supplier": "LCSC",
+    "supplierId": "C5269846",
+    "manufacturer": "复旦微(FMSH)",
+    "manufacturerId": "FM15F366",
+    "description": "32位安全超低功耗微控制器 LQFP-48",
+    "value": "FM15F366",
+    "package": "QFN40 5X5X04P"
+  },
+  "RX2": {
+    "supplier": "LCSC",
+    "supplierId": "C25087",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF1001TCE",
+    "description": "0402 1kΩ ±1% 贴片电阻",
+    "value": "1k",
+    "package": "0402_Z"
+  },
+  "RX1": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF2.3kTCE",
+    "description": "0402 2.3k ±1% 贴片电阻",
+    "value": "2.3k",
+    "package": "0402_Z"
+  },
+  "R54": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF22kTCE",
+    "description": "0402 22k ±1% 贴片电阻",
+    "value": "22k",
+    "package": "0603_Z"
+  },
+  "R53": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF168kTCE",
+    "description": "0402 168k ±1% 贴片电阻",
+    "value": "168k",
+    "package": "0603_Z"
+  },
+  "R47": {
+    "supplier": "LCSC",
+    "supplierId": "C25118",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF499JTCE",
+    "description": "0402 49.9Ω ±1% 贴片电阻",
+    "value": "50",
+    "package": "0402_Z"
+  },
+  "R45": {
+    "supplier": "LCSC",
+    "supplierId": "C25118",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF499JTCE",
+    "description": "0402 49.9Ω ±1% 贴片电阻",
+    "value": "50",
+    "package": "0402_Z"
+  },
+  "R44": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF6.5kTCE",
+    "description": "0402 6.5k ±1% 贴片电阻",
+    "value": "6.5k",
+    "package": "0402_Z"
+  },
+  "R43": {
+    "supplier": "LCSC",
+    "supplierId": "C25118",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF499JTCE",
+    "description": "0402 49.9Ω ±1% 贴片电阻",
+    "value": "50",
+    "package": "0402_Z"
+  },
+  "R42": {
+    "supplier": "LCSC",
+    "supplierId": "C25118",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF499JTCE",
+    "description": "0402 49.9Ω ±1% 贴片电阻",
+    "value": "50",
+    "package": "0402_Z"
+  },
+  "R41": {
+    "supplier": "LCSC",
+    "supplierId": "C25118",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF499JTCE",
+    "description": "0402 49.9Ω ±1% 贴片电阻",
+    "value": "50",
+    "package": "0402_Z"
+  },
+  "R40": {
+    "supplier": "LCSC",
+    "supplierId": "C25118",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF499JTCE",
+    "description": "0402 49.9Ω ±1% 贴片电阻",
+    "value": "50",
+    "package": "0402_Z"
+  },
+  "R37": {
+    "supplier": "LCSC",
+    "supplierId": "C17168",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF0000TCE",
+    "description": "0402 0Ω ±1% 贴片电阻",
+    "value": "0R",
+    "package": "0402_Z"
+  },
+  "R36": {
+    "supplier": "LCSC",
+    "supplierId": "C25118",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF499JTCE",
+    "description": "0402 49.9Ω ±1% 贴片电阻",
+    "value": "50R",
+    "package": "0402_Z"
+  },
+  "R39": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF6.5kTCE",
+    "description": "0402 6.5k ±1% 贴片电阻",
+    "value": "6.5k",
+    "package": "0402_Z"
+  },
+  "R38": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF6.5kTCE",
+    "description": "0402 6.5k ±1% 贴片电阻",
+    "value": "6.5k",
+    "package": "0402_Z"
+  },
+  "R28": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF11RTCE",
+    "description": "0402 11R ±1% 贴片电阻",
+    "value": "11R",
+    "package": "0603_Z"
+  },
+  "R13": {
+    "supplier": "LCSC",
+    "supplierId": "C25750",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF4702TCE",
+    "description": "0402 47kΩ ±1% 贴片电阻",
+    "value": "47k",
+    "package": "0402_Z"
+  },
+  "R12": {
+    "supplier": "LCSC",
+    "supplierId": "C25750",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF4702TCE",
+    "description": "0402 47kΩ ±1% 贴片电阻",
+    "value": "47k",
+    "package": "0402_Z"
+  },
+  "R11": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "R10": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "R9": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "R8": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "R7": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "R6": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "R5": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF33RTCE",
+    "description": "0402 33R ±1% 贴片电阻",
+    "value": "33R",
+    "package": "0402_Z"
+  },
+  "R4": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF2.7KTCE",
+    "description": "0402 2.7K ±1% 贴片电阻",
+    "value": "2.7K",
+    "package": "0402_Z"
+  },
+  "R3": {
+    "supplier": "LCSC",
+    "supplierId": "C25091",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF4701TCE",
+    "description": "0402 4.7kΩ ±1% 贴片电阻",
+    "value": "4.7K",
+    "package": "0402_Z"
+  },
+  "R51": {
+    "supplier": "LCSC",
+    "supplierId": "C25076",
+    "manufacturer": "厚声(UniOhm)/风华高科",
+    "manufacturerId": "0402WGF22kTCE",
+    "description": "0402 22k ±1% 贴片电阻",
+    "value": "22k",
+    "package": "0603_Z"
+  },
+  "P5": {
+    "supplier": "LCSC",
+    "supplierId": "C99999",
+    "manufacturer": "国产优质供应",
+    "manufacturerId": "SF9078",
+    "description": "SF8009 SF9078",
+    "value": "SF9078",
+    "package": "SF8009"
+  },
+  "P4": {
+    "supplier": "LCSC",
+    "supplierId": "C99999",
+    "manufacturer": "国产优质供应",
+    "manufacturerId": "SF9078",
+    "description": "SF8009 SF9078",
+    "value": "SF9078",
+    "package": "SF8009"
+  },
+  "P2": {
+    "supplier": "LCSC",
+    "supplierId": "C99999",
+    "manufacturer": "国产优质供应",
+    "manufacturerId": "SF9078",
+    "description": "SF8009 SF9078",
+    "value": "SF9078",
+    "package": "SF8009"
+  },
+  "LDMOS1": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CLDMOSSTF",
+    "description": "0402 LDMOS 高频叠层贴片电感",
+    "value": "LDMOS",
+    "package": "LDMOS"
+  },
+  "L47": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C4.7 uHSTF",
+    "description": "0402 4.7 uH 高频叠层贴片电感",
+    "value": "4.7 uH",
+    "package": "INDC 4040X25N"
+  },
+  "L45": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C47nHSTF",
+    "description": "0402 47nH 高频叠层贴片电感",
+    "value": "47nH",
+    "package": "0402_Z"
+  },
+  "L44": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C18nHSTF",
+    "description": "0402 18nH 高频叠层贴片电感",
+    "value": "18nH",
+    "package": "0402_Z"
+  },
+  "L43": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C47nHSTF",
+    "description": "0402 47nH 高频叠层贴片电感",
+    "value": "47nH",
+    "package": "0402_Z"
+  },
+  "L42": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C47nHSTF",
+    "description": "0402 47nH 高频叠层贴片电感",
+    "value": "47nH",
+    "package": "0402_Z"
+  },
+  "L41": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C18nHSTF",
+    "description": "0402 18nH 高频叠层贴片电感",
+    "value": "18nH",
+    "package": "0402_Z"
+  },
+  "L40": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C18nHSTF",
+    "description": "0402 18nH 高频叠层贴片电感",
+    "value": "18nH",
+    "package": "0402_Z"
+  },
+  "L35": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L33": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L32": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L31": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L30": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L29": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C8.2nHSTF",
+    "description": "0402 8.2nH 高频叠层贴片电感",
+    "value": "8.2nH",
+    "package": "0402_Z"
+  },
+  "L28": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C8.2nHSTF",
+    "description": "0402 8.2nH 高频叠层贴片电感",
+    "value": "8.2nH",
+    "package": "0402_Z"
+  },
+  "L27": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C1.8nHSTF",
+    "description": "0402 1.8nH 高频叠层贴片电感",
+    "value": "1.8nH",
+    "package": "0402_Z"
+  },
+  "L26": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C1.8nHSTF",
+    "description": "0402 1.8nH 高频叠层贴片电感",
+    "value": "1.8nH",
+    "package": "0402_Z"
+  },
+  "L25": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L24": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L21": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L16": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C12 nHSTF",
+    "description": "0402 12 nH 高频叠层贴片电感",
+    "value": "12 nH",
+    "package": "0402_Z"
+  },
+  "L13": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L11": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C1nHSTF",
+    "description": "0402 1nH 高频叠层贴片电感",
+    "value": "1nH",
+    "package": "0402_Z"
+  },
+  "L10": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L6": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C1nHSTF",
+    "description": "0402 1nH 高频叠层贴片电感",
+    "value": "1nH",
+    "package": "0402_Z"
+  },
+  "L5": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "L4": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005C33nHSTF",
+    "description": "0402 33nH 高频叠层贴片电感",
+    "value": "33nH",
+    "package": "0603_Z"
+  },
+  "L3": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CMMZ1608B601CSTF",
+    "description": "0402 MMZ1608B601C 高频叠层贴片电感",
+    "value": "MMZ1608B601C",
+    "package": "0402_Z"
+  },
+  "L2": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CMMZ1608B601CSTF",
+    "description": "0402 MMZ1608B601C 高频叠层贴片电感",
+    "value": "MMZ1608B601C",
+    "package": "0402_Z"
+  },
+  "L1": {
+    "supplier": "LCSC",
+    "supplierId": "C1005",
+    "manufacturer": "顺络(Sunlord)/麦捷科技",
+    "manufacturerId": "SDCL1005CBEADSTF",
+    "description": "0402 BEAD 高频叠层贴片电感",
+    "value": "BEAD",
+    "package": "0603_Z"
+  },
+  "F1": {
+    "supplier": "LCSC",
+    "supplierId": "C99999",
+    "manufacturer": "国产优质供应",
+    "manufacturerId": "JFC1206-1300FS",
+    "description": "F1206 JFC1206-1300FS",
+    "value": "JFC1206-1300FS",
+    "package": "F1206"
+  },
+  "C213": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C212": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C211": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C210": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C209": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C208": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C207": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C206": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C205": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C204": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C203": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C202": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C201": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C200": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C199": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0805_Z"
+  },
+  "C198": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R4.7uF",
+    "description": "0402 4.7uF ±10% 贴片电容",
+    "value": "4.7uF",
+    "package": "0805_Z"
+  },
+  "C192": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C191": {
+    "supplier": "LCSC",
+    "supplierId": "C15849",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX7R9BB105",
+    "description": "0603 1uF ±10% 50V X7R",
+    "value": "1uF",
+    "package": "0603_Z"
+  },
+  "C195": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0805_Z"
+  },
+  "C194": {
+    "supplier": "LCSC",
+    "supplierId": "C19703",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0805KRX5R6BB226",
+    "description": "0805 22uF ±20% 10V X5R",
+    "value": "22uF",
+    "package": "0805_Z"
+  },
+  "C193": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C172": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C179": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C183": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C182": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C175": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C184": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C177": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C174": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C171": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C170": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C169": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C167": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C166": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C165": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C164": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C163": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C162": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C161": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C168": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C185": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C176": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C181": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C173": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C159": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C158": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C157": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C156": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C154": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C153": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C152": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C150": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C149": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C148": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C147": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C146": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C145": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C144": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C143": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C140": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C142": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C141": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C139": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C138": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C135": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C133": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C132": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C130": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C129": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C137": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C136": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C134": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C101": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C107": {
+    "supplier": "LCSC",
+    "supplierId": "C1548",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN470",
+    "description": "0402 47pF ±5% 50V C0G",
+    "value": "47pF",
+    "package": "0402_Z"
+  },
+  "C106": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0603_Z"
+  },
+  "C99": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0603_Z"
+  },
+  "C98": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0603_Z"
+  },
+  "C97": {
+    "supplier": "LCSC",
+    "supplierId": "C1548",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN470",
+    "description": "0402 47pF ±5% 50V C0G",
+    "value": "47pF",
+    "package": "0805_Z"
+  },
+  "C96": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0603_Z"
+  },
+  "C95": {
+    "supplier": "LCSC",
+    "supplierId": "C1548",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN470",
+    "description": "0402 47pF ±5% 50V C0G",
+    "value": "47pF",
+    "package": "0603_Z"
+  },
+  "C94": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "1210_Z"
+  },
+  "C92": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0805_Z"
+  },
+  "C178": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C114": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C111": {
+    "supplier": "LCSC",
+    "supplierId": "C1551",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN100",
+    "description": "0402 10pF ±5% 50V C0G",
+    "value": "10pF",
+    "package": "0402_Z"
+  },
+  "C77": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN68 pF",
+    "description": "0402 68 pF ±5% 50V C0G",
+    "value": "68 pF",
+    "package": "0402_Z"
+  },
+  "C76": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C75": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0603_Z"
+  },
+  "C73": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1uF",
+    "package": "0402_Z"
+  },
+  "C72": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN68 pF",
+    "description": "0402 68 pF ±5% 50V C0G",
+    "value": "68 pF",
+    "package": "0402_Z"
+  },
+  "C71": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C70": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0603_Z"
+  },
+  "C65": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1uF",
+    "package": "0402_Z"
+  },
+  "C64": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100 pF",
+    "package": "0402_Z"
+  },
+  "C63": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1 nF",
+    "package": "0402_Z"
+  },
+  "C62": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100 nF",
+    "package": "0402_Z"
+  },
+  "C61": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0603_Z"
+  },
+  "C60": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN33 pF",
+    "description": "0402 33 pF ±5% 50V C0G",
+    "value": "33 pF",
+    "package": "0402_Z"
+  },
+  "C59": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN33 pF",
+    "description": "0402 33 pF ±5% 50V C0G",
+    "value": "33 pF",
+    "package": "0402_Z"
+  },
+  "C58": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN68pF",
+    "description": "0402 68pF ±5% 50V C0G",
+    "value": "68pF",
+    "package": "0402_Z"
+  },
+  "C57": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN33 pF",
+    "description": "0402 33 pF ±5% 50V C0G",
+    "value": "33 pF",
+    "package": "0402_Z"
+  },
+  "C56": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN12 pF",
+    "description": "0402 12 pF ±5% 50V C0G",
+    "value": "12 pF",
+    "package": "0402_Z"
+  },
+  "C55": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN33 pF",
+    "description": "0402 33 pF ±5% 50V C0G",
+    "value": "33 pF",
+    "package": "0402_Z"
+  },
+  "C54": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C53": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C52": {
+    "supplier": "LCSC",
+    "supplierId": "C1551",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN100",
+    "description": "0402 10pF ±5% 50V C0G",
+    "value": "10 pF",
+    "package": "0402_Z"
+  },
+  "C51": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN68pF",
+    "description": "0402 68pF ±5% 50V C0G",
+    "value": "68pF",
+    "package": "0402_Z"
+  },
+  "C50": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1uF",
+    "package": "0402_Z"
+  },
+  "C49": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C46": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C45": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C43": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1 uF",
+    "package": "0402_Z"
+  },
+  "C39": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1 nF",
+    "package": "0402_Z"
+  },
+  "C35": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN101",
+    "description": "0402 100pF ±5% 50V C0G",
+    "value": "100pF",
+    "package": "0402_Z"
+  },
+  "C34": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1 nF",
+    "package": "0402_Z"
+  },
+  "C33": {
+    "supplier": "LCSC",
+    "supplierId": "C1551",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN100",
+    "description": "0402 10pF ±5% 50V C0G",
+    "value": "10 pF",
+    "package": "0402_Z"
+  },
+  "C32": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN68pF",
+    "description": "0402 68pF ±5% 50V C0G",
+    "value": "68pF",
+    "package": "0402_Z"
+  },
+  "C31": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1uF",
+    "package": "0402_Z"
+  },
+  "C26": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0603_Z"
+  },
+  "C25": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN68pF",
+    "description": "0402 68pF ±5% 50V C0G",
+    "value": "68pF",
+    "package": "0402_Z"
+  },
+  "C22": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7RNC",
+    "description": "0402 NC ±10% X7R",
+    "value": "NC",
+    "package": "0402_Z"
+  },
+  "C21": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN1.8pF",
+    "description": "0402 1.8pF ±5% 50V C0G",
+    "value": "1.8pF",
+    "package": "0402_Z"
+  },
+  "C17": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0603_Z"
+  },
+  "C16": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R22nF",
+    "description": "0402 22nF ±10% X7R",
+    "value": "22nF",
+    "package": "0402_Z"
+  },
+  "C15": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C14": {
+    "supplier": "LCSC",
+    "supplierId": "C1532",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R9BB102",
+    "description": "0402 1nF ±10% 50V X7R",
+    "value": "1nF",
+    "package": "0402_Z"
+  },
+  "C13": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN68pF",
+    "description": "0402 68pF ±5% 50V C0G",
+    "value": "68pF",
+    "package": "0402_Z"
+  },
+  "C12": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C11": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "1uF",
+    "package": "0402_Z"
+  },
+  "C10": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0402_Z"
+  },
+  "C9": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R100uF",
+    "description": "0402 100uF ±10% 贴片电容",
+    "value": "100uF",
+    "package": "0805_Z"
+  },
+  "C8": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R100uF",
+    "description": "0402 100uF ±10% 贴片电容",
+    "value": "100uF",
+    "package": "0805_Z"
+  },
+  "C7": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN20pF  NP0",
+    "description": "0402 20pF  NP0 ±5% 50V C0G",
+    "value": "20pF  NP0",
+    "package": "0402_Z"
+  },
+  "C6": {
+    "supplier": "LCSC",
+    "supplierId": "C1546",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402JRNPO9BN20pF  NP0",
+    "description": "0402 20pF  NP0 ±5% 50V C0G",
+    "value": "20pF  NP0",
+    "package": "0402_Z"
+  },
+  "C5": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "0.1uF",
+    "package": "0402_Z"
+  },
+  "C4": {
+    "supplier": "LCSC",
+    "supplierId": "C52923",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX5R6BB105",
+    "description": "0402 1uF ±10% 10V X5R",
+    "value": "0.1uF",
+    "package": "0402_Z"
+  },
+  "C3": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C2": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C1": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  },
+  "C188": {
+    "supplier": "LCSC",
+    "supplierId": "C19702",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0603KRX5R6BB106",
+    "description": "0603 10uF ±20% 10V X5R",
+    "value": "10uF",
+    "package": "0805_Z"
+  },
+  "C187": {
+    "supplier": "LCSC",
+    "supplierId": "C19703",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0805KRX5R6BB226",
+    "description": "0805 22uF ±20% 10V X5R",
+    "value": "22uF",
+    "package": "0805_Z"
+  },
+  "C186": {
+    "supplier": "LCSC",
+    "supplierId": "C1525",
+    "manufacturer": "国巨(Yageo)/风华高科",
+    "manufacturerId": "CC0402KRX7R7BB104",
+    "description": "0402 100nF ±10% 16V X7R",
+    "value": "100nF",
+    "package": "0402_Z"
+  }
+}

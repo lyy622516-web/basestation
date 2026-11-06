@@ -1,0 +1,23 @@
+# Altium Designer & EDA backup/temporary files
+History/
+__Previews/
+*.LOG
+*.html
+*.DRC
+*.bak
+*.tmp
+*~
+
+# Office temporary files
+~$*.docx
+~$*.xlsx
+~$*.vsdx
+
+# Python
+__pycache__/
+*.pyc
+
+# OS generated
+Thumbs.db
+Desktop.ini
+.DS_Store
